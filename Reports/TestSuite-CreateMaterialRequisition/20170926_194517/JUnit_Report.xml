@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite-CreateMaterialRequisition" time="62" tests="3" failures="0" errors="0">
+   <testsuite name="TestSuite-CreateMaterialRequisition" tests="3" failures="0" errors="0" time="62" timestamp="2017-09-26 19:45:18" hostname="mithu - DESKTOP-1QKO1SP" id="Test Suites/TestSuite-CreateMaterialRequisition">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170926_194517"/>
+         <property name="logFiles" value="F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170926_194517\\execution0.log"/>
+         <property name="attachments" value="F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170926_194517\\1506433532554.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170926_194517\\1506433541857.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170926_194517\\1506433580293.png"/>
+         <property name="hostName" value="mithu - DESKTOP-1QKO1SP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 60.0.3112.113"/>
+         <property name="hostAddress" value="192.168.91.161"/>
+         <property name="sessionId" value="42096ebc133c2687eb1720729d953f0d"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2017-09-26 19:45:19 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-09-26 19:45:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-26 19:45:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-26 19:45:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-09-26 19:45:23 - [MESSAGE][PASSED] - Current window maximized
+
+2017-09-26 19:45:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-26 19:45:26 - [MESSAGE][PASSED] - Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-26 19:45:26 - [TEST_STEP][PASSED] - setText: Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-26 19:45:26 - [MESSAGE][PASSED] - Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-26 19:45:26 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-26 19:45:27 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-26 19:45:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on
+
+2017-09-26 19:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SelectRole" classname="Test Cases/SelectRole" status="PASSED">
+         <system-out><![CDATA[2017-09-26 19:45:27 - [TEST_CASE][PASSED] - Test Cases/SelectRole: Test Cases/SelectRole
+
+2017-09-26 19:45:27 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-09-26 19:45:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-09-26 19:45:32 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2017-09-26 19:45:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170926_194517\\1506433532554.png]]
+
+2017-09-26 19:45:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/select_input' is clicked on
+
+2017-09-26 19:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/select_input' is clicked on
+
+2017-09-26 19:45:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' is clicked on
+
+2017-09-26 19:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' is clicked on
+
+2017-09-26 19:45:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/button_Enter' is clicked on
+
+2017-09-26 19:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/button_Enter' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateMaterialRequisition" classname="Test Cases/CreateMaterialRequisition" status="PASSED">
+         <system-out><![CDATA[2017-09-26 19:45:33 - [TEST_CASE][PASSED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition
+
+2017-09-26 19:45:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-26 19:45:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-26 19:45:35 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/create material requisition/span_Requisitions' is hovered
+
+2017-09-26 19:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/span_Requisitions' is hovered
+
+2017-09-26 19:45:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-26 19:45:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-26 19:45:37 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/create material requisition/a_Create Requisition' is hovered
+
+2017-09-26 19:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/a_Create Requisition' is hovered
+
+2017-09-26 19:45:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-26 19:45:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-26 19:45:39 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/create material requisition/a_Material Requisition' is hovered
+
+2017-09-26 19:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/a_Material Requisition' is hovered
+
+2017-09-26 19:45:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-26 19:45:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-26 19:45:41 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2017-09-26 19:45:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170926_194517\\1506433541857.png]]
+
+2017-09-26 19:45:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create material requisition/a_Material Requisition' is clicked on
+
+2017-09-26 19:45:42 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/a_Material Requisition' is clicked on
+
+2017-09-26 19:45:42 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-09-26 19:45:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-09-26 19:45:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' is clicked on
+
+2017-09-26 19:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' is clicked on
+
+2017-09-26 19:45:45 - [TEST_STEP][PASSED] - setText: Text 'Material Requisition 1A' is set on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle'
+
+2017-09-26 19:45:45 - [MESSAGE][PASSED] - Text 'Material Requisition 1A' is set on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle'
+
+2017-09-26 19:45:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/requestTo' is clicked on
+
+2017-09-26 19:45:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/requestTo' is clicked on
+
+2017-09-26 19:45:45 - [TEST_STEP][PASSED] - setText: Text 'Fahad Billah (Local Approver)' is set on object 'Object Repository/Page_Procurement Management  Create/requestTo'
+
+2017-09-26 19:45:46 - [MESSAGE][PASSED] - Text 'Fahad Billah (Local Approver)' is set on object 'Object Repository/Page_Procurement Management  Create/requestTo'
+
+2017-09-26 19:45:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' is clicked on
+
+2017-09-26 19:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' is clicked on
+
+2017-09-26 19:45:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/input_receiverName' is clicked on
+
+2017-09-26 19:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/input_receiverName' is clicked on
+
+2017-09-26 19:45:47 - [TEST_STEP][PASSED] - setText: Text 'Fahad Billah' is set on object 'Object Repository/Page_Procurement Management  Create/input_receiverName'
+
+2017-09-26 19:45:47 - [MESSAGE][PASSED] - Text 'Fahad Billah' is set on object 'Object Repository/Page_Procurement Management  Create/input_receiverName'
+
+2017-09-26 19:45:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah' is clicked on
+
+2017-09-26 19:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah' is clicked on
+
+2017-09-26 19:45:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-26 19:45:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-26 19:45:50 - [TEST_STEP][PASSED] - setText: Text 'Mamun Rasid' is set on object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterName (2)'
+
+2017-09-26 19:45:50 - [MESSAGE][PASSED] - Text 'Mamun Rasid' is set on object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterName (2)'
+
+2017-09-26 19:45:50 - [TEST_STEP][PASSED] - setText: Text '01745677420' is set on object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterPhone (1)'
+
+2017-09-26 19:45:51 - [MESSAGE][PASSED] - Text '01745677420' is set on object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterPhone (1)'
+
+2017-09-26 19:45:51 - [TEST_STEP][PASSED] - setText: Text 'Test Team Qa-katalon' is set on object 'Object Repository/Page_Procurement Management  Create/textarea_remarks'
+
+2017-09-26 19:45:51 - [MESSAGE][PASSED] - Text 'Test Team Qa-katalon' is set on object 'Object Repository/Page_Procurement Management  Create/textarea_remarks'
+
+2017-09-26 19:45:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:45:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:45:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/span_Item Details' is clicked on
+
+2017-09-26 19:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/span_Item Details' is clicked on
+
+2017-09-26 19:45:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:45:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:45:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/CostCenterName' is clicked on
+
+2017-09-26 19:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/CostCenterName' is clicked on
+
+2017-09-26 19:45:53 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2017-09-26 19:45:54 - [MESSAGE][PASSED] - Angular is ready.
+
+2017-09-26 19:45:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/a_10100.12 Engineers  Employer' is clicked on
+
+2017-09-26 19:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/a_10100.12 Engineers  Employer' is clicked on
+
+2017-09-26 19:45:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:45:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:45:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_OK' is clicked on
+
+2017-09-26 19:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_OK' is clicked on
+
+2017-09-26 19:45:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-26 19:45:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-26 19:45:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_btn pull-right btn-defa' is clicked on
+
+2017-09-26 19:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_btn pull-right btn-defa' is clicked on
+
+2017-09-26 19:45:58 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2017-09-26 19:46:02 - [MESSAGE][PASSED] - Angular is ready.
+
+2017-09-26 19:46:02 - [TEST_STEP][PASSED] - setText: Text 'acv' is set on object 'Object Repository/Page_Procurement Management  Create/input_form-control ng-untouche'
+
+2017-09-26 19:46:02 - [MESSAGE][PASSED] - Text 'acv' is set on object 'Object Repository/Page_Procurement Management  Create/input_form-control ng-untouche'
+
+2017-09-26 19:46:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-26 19:46:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-26 19:46:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/a_ACV Measuring Mould' is clicked on
+
+2017-09-26 19:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/a_ACV Measuring Mould' is clicked on
+
+2017-09-26 19:46:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-26 19:46:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-26 19:46:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_OK' is clicked on
+
+2017-09-26 19:46:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_OK' is clicked on
+
+2017-09-26 19:46:07 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2017-09-26 19:46:08 - [MESSAGE][PASSED] - Angular is ready.
+
+2017-09-26 19:46:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/Click specification ID' is clicked on
+
+2017-09-26 19:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/Click specification ID' is clicked on
+
+2017-09-26 19:46:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:46:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:46:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/select_specificationId' is clicked on
+
+2017-09-26 19:46:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/select_specificationId' is clicked on
+
+2017-09-26 19:46:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:46:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:46:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/Click Size ID' is clicked on
+
+2017-09-26 19:46:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/Click Size ID' is clicked on
+
+2017-09-26 19:46:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:46:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:46:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/select_sizeId' is clicked on
+
+2017-09-26 19:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/select_sizeId' is clicked on
+
+2017-09-26 19:46:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:46:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:46:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/click color Id' is clicked on
+
+2017-09-26 19:46:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/click color Id' is clicked on
+
+2017-09-26 19:46:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:46:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:46:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/select_colorId' is clicked on
+
+2017-09-26 19:46:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/select_colorId' is clicked on
+
+2017-09-26 19:46:13 - [TEST_STEP][PASSED] - setText: Text 'mkGhost' is set on object 'Object Repository/Page_Procurement Management  Create/input_receiverNameTemp'
+
+2017-09-26 19:46:13 - [MESSAGE][PASSED] - Text 'mkGhost' is set on object 'Object Repository/Page_Procurement Management  Create/input_receiverNameTemp'
+
+2017-09-26 19:46:13 - [TEST_STEP][PASSED] - setText: Text '20no road mohakhali DOHS' is set on object 'Object Repository/Page_Procurement Management  Create/input_receivingAddress'
+
+2017-09-26 19:46:14 - [MESSAGE][PASSED] - Text '20no road mohakhali DOHS' is set on object 'Object Repository/Page_Procurement Management  Create/input_receivingAddress'
+
+2017-09-26 19:46:14 - [TEST_STEP][PASSED] - setText: Text '250' is set on object 'Object Repository/Page_Procurement Management  Create/input_quantity'
+
+2017-09-26 19:46:14 - [MESSAGE][PASSED] - Text '250' is set on object 'Object Repository/Page_Procurement Management  Create/input_quantity'
+
+2017-09-26 19:46:14 - [TEST_STEP][PASSED] - setText: Text 'Test Item' is set on object 'Object Repository/Page_Procurement Management  Create/input_itemDesc'
+
+2017-09-26 19:46:14 - [MESSAGE][PASSED] - Text 'Test Item' is set on object 'Object Repository/Page_Procurement Management  Create/input_itemDesc'
+
+2017-09-26 19:46:14 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:46:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:46:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_Add Item' is clicked on
+
+2017-09-26 19:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_Add Item' is clicked on
+
+2017-09-26 19:46:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:46:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:46:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_Submit' is clicked on
+
+2017-09-26 19:46:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_Submit' is clicked on
+
+2017-09-26 19:46:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:46:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:46:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_Cancel' is clicked on
+
+2017-09-26 19:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_Cancel' is clicked on
+
+2017-09-26 19:46:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:46:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:46:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_Submit (1)' is clicked on
+
+2017-09-26 19:46:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_Submit (1)' is clicked on
+
+2017-09-26 19:46:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-26 19:46:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-26 19:46:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_Submit_popUp' is clicked on
+
+2017-09-26 19:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_Submit_popUp' is clicked on
+
+2017-09-26 19:46:20 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2017-09-26 19:46:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170926_194517\\1506433580293.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-26 19:45:18 - [TEST_SUITE][PASSED] - TestSuite-CreateMaterialRequisition: Test Cases/CreateMaterialRequisition]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite-CreateMaterialRequisition,Chrome 61.0.3163.100,,2017-10-18 00:57:28,2017-10-18 01:02:44,5m - 16.425s,FAILED
+,,,,,,
+Test Cases/Login,Chrome 61.0.3163.100,,2017-10-18 00:57:28,2017-10-18 00:57:39,11.055s,PASSED
+openBrowser,Chrome 61.0.3163.100,,2017-10-18 00:57:29,2017-10-18 00:57:31,2.934s,PASSED
+maximizeWindow,Chrome 61.0.3163.100,,2017-10-18 00:57:31,2017-10-18 00:57:33,1.179s,PASSED
+navigateToUrl,Chrome 61.0.3163.100,,2017-10-18 00:57:33,2017-10-18 00:57:38,5.653s,PASSED
+setText,Chrome 61.0.3163.100,,2017-10-18 00:57:38,2017-10-18 00:57:39,0.313s,PASSED
+setText,Chrome 61.0.3163.100,,2017-10-18 00:57:39,2017-10-18 00:57:39,0.158s,PASSED
+click,Chrome 61.0.3163.100,,2017-10-18 00:57:39,2017-10-18 00:57:39,0.249s,PASSED
+,,,,,,
+Test Cases/SelectRole,Chrome 61.0.3163.100,,2017-10-18 00:57:39,2017-10-18 00:57:45,6.404s,PASSED
+delay,Chrome 61.0.3163.100,,2017-10-18 00:57:39,2017-10-18 00:57:44,5.041s,PASSED
+takeScreenshot,Chrome 61.0.3163.100,,2017-10-18 00:57:44,2017-10-18 00:57:45,0.436s,PASSED
+click,Chrome 61.0.3163.100,,2017-10-18 00:57:45,2017-10-18 00:57:45,0.179s,PASSED
+click,Chrome 61.0.3163.100,,2017-10-18 00:57:45,2017-10-18 00:57:45,0.211s,PASSED
+click,Chrome 61.0.3163.100,,2017-10-18 00:57:45,2017-10-18 00:57:45,0.281s,PASSED
+,,,,,,
+Test Cases/CreateMaterialRequisition,Chrome 61.0.3163.100,,2017-10-18 00:57:46,2017-10-18 01:02:43,4m - 57.153s,FAILED
+waitForPageLoad,Chrome 61.0.3163.100,,2017-10-18 00:57:46,2017-10-18 00:57:46,0.039s,PASSED
+"Statement - For ([row = 1, row <= com.kms.katalon.core.testdata.TestDataFactory.findTestData(createMaterialRequisitionData/createMrInfo).getRowNumbers(), (row++)])",Chrome 61.0.3163.100,,2017-10-18 00:57:46,2017-10-18 01:02:43,4m - 56.684s,FAILED

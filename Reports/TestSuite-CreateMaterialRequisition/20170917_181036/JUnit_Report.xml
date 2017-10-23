@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite-CreateMaterialRequisition" time="174" tests="2" failures="1" errors="0">
+   <testsuite name="TestSuite-CreateMaterialRequisition" tests="2" failures="1" errors="0" time="174" timestamp="2017-09-17 18:10:37" hostname="mithu - DESKTOP-1QKO1SP" id="Test Suites/TestSuite-CreateMaterialRequisition">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036"/>
+         <property name="logFiles" value="F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\execution0.log"/>
+         <property name="attachments" value="F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650284456.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650300943.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650317006.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650332776.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650353250.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650382351.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650384863.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650387386.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650408432.png"/>
+         <property name="hostName" value="mithu - DESKTOP-1QKO1SP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 60.0.3112.113"/>
+         <property name="hostAddress" value="192.168.91.161"/>
+         <property name="sessionId" value="610386a7d6e304c8efe1a99858acd31b"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2017-09-17 18:10:37 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-09-17 18:10:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-17 18:10:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-17 18:10:40 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-09-17 18:10:42 - [MESSAGE][PASSED] - Current window maximized
+
+2017-09-17 18:10:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-17 18:10:45 - [MESSAGE][PASSED] - Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-17 18:10:45 - [TEST_STEP][PASSED] - setText: Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-17 18:10:46 - [MESSAGE][PASSED] - Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-17 18:10:46 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-17 18:10:46 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-17 18:10:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on
+
+2017-09-17 18:10:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SelectRole" classname="Test Cases/SelectRole" status="PASSED">
+         <system-out><![CDATA[2017-09-17 18:10:46 - [TEST_CASE][PASSED] - Test Cases/SelectRole: Test Cases/SelectRole
+
+2017-09-17 18:10:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-09-17 18:10:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-09-17 18:10:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/select_input' is clicked on
+
+2017-09-17 18:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/select_input' is clicked on
+
+2017-09-17 18:10:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' is clicked on
+
+2017-09-17 18:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' is clicked on
+
+2017-09-17 18:10:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/button_Enter' is clicked on
+
+2017-09-17 18:10:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/button_Enter' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateMaterialRequisition" classname="Test Cases/CreateMaterialRequisition" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)"/>
+         <system-out><![CDATA[2017-09-17 18:10:52 - [TEST_CASE][FAILED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-09-17 18:10:52 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-17 18:11:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-17 18:11:02 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/create material requisition/span_Requisitions' is hovered
+
+2017-09-17 18:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/span_Requisitions' is hovered
+
+2017-09-17 18:11:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:11:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:11:04 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/create material requisition/a_Create Requisition' is hovered
+
+2017-09-17 18:11:04 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/a_Create Requisition' is hovered
+
+2017-09-17 18:11:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:11:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:11:06 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/create material requisition/a_Material Requisition' is hovered
+
+2017-09-17 18:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/a_Material Requisition' is hovered
+
+2017-09-17 18:11:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:11:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:11:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create material requisition/a_Material Requisition' is clicked on
+
+2017-09-17 18:11:08 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/a_Material Requisition' is clicked on
+
+2017-09-17 18:11:08 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-09-17 18:11:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-09-17 18:11:08 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-09-17 18:11:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650284456.png]]
+
+2017-09-17 18:11:24 - [TEST_STEP][FAILED] - setText: Unable to set text 'Material Requisition 1A' of object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-09-17 18:11:41 - [MESSAGE][FAILED] - Unable to set text 'Material Requisition 1A' of object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650300943.png]]
+
+2017-09-17 18:11:41 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/requestTo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/requestTo' located by 'By.xpath: //input[@name='approverName']' not found)
+
+2017-09-17 18:11:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/requestTo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/requestTo' located by 'By.xpath: //input[@name='approverName']' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650317006.png]]
+
+2017-09-17 18:11:57 - [TEST_STEP][FAILED] - setText: Unable to set text 'Fahad Billah' of object 'Object Repository/Page_Procurement Management  Create/requestTo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/requestTo' located by 'By.xpath: //input[@name='approverName']' not found)
+
+2017-09-17 18:12:13 - [MESSAGE][FAILED] - Unable to set text 'Fahad Billah' of object 'Object Repository/Page_Procurement Management  Create/requestTo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/requestTo' located by 'By.xpath: //input[@name='approverName']' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650332776.png]]
+
+2017-09-17 18:12:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' located by 'By.xpath: //li[count(. | //*[contains(.,'Fahad Billah (Local Boss)')]) = count(//*[contains(.,'Fahad Billah (Local Boss)')])]' not found)
+
+2017-09-17 18:12:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' located by 'By.xpath: //li[count(. | //*[contains(.,'Fahad Billah (Local Boss)')]) = count(//*[contains(.,'Fahad Billah (Local Boss)')])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650353250.png]]
+
+2017-09-17 18:12:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/input_receiverName' is clicked on
+
+2017-09-17 18:12:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/input_receiverName' is clicked on
+
+2017-09-17 18:12:33 - [TEST_STEP][PASSED] - setText: Text 'Fahad Billah' is set on object 'Object Repository/Page_Procurement Management  Create/input_receiverName'
+
+2017-09-17 18:12:33 - [MESSAGE][PASSED] - Text 'Fahad Billah' is set on object 'Object Repository/Page_Procurement Management  Create/input_receiverName'
+
+2017-09-17 18:12:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah' is clicked on
+
+2017-09-17 18:12:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah' is clicked on
+
+2017-09-17 18:12:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:12:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:12:36 - [TEST_STEP][PASSED] - setText: Text 'Mirhu khan' is set on object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterName (2)'
+
+2017-09-17 18:12:36 - [MESSAGE][PASSED] - Text 'Mirhu khan' is set on object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterName (2)'
+
+2017-09-17 18:12:36 - [TEST_STEP][PASSED] - setText: Text '01745677420' is set on object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterPhone (1)'
+
+2017-09-17 18:12:36 - [MESSAGE][PASSED] - Text '01745677420' is set on object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterPhone (1)'
+
+2017-09-17 18:12:36 - [TEST_STEP][PASSED] - setText: Text 'Test Team Qa-katalon' is set on object 'Object Repository/Page_Procurement Management  Create/textarea_remarks'
+
+2017-09-17 18:12:36 - [MESSAGE][PASSED] - Text 'Test Team Qa-katalon' is set on object 'Object Repository/Page_Procurement Management  Create/textarea_remarks'
+
+2017-09-17 18:12:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:12:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:12:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/span_Item Details' is clicked on
+
+2017-09-17 18:12:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/span_Item Details' is clicked on
+
+2017-09-17 18:12:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:12:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:12:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/CostCenterName' is clicked on
+
+2017-09-17 18:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/CostCenterName' is clicked on
+
+2017-09-17 18:12:39 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2017-09-17 18:12:40 - [MESSAGE][PASSED] - Angular is ready.
+
+2017-09-17 18:12:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/a_10100.12 Engineers  Employer' is clicked on
+
+2017-09-17 18:12:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/a_10100.12 Engineers  Employer' is clicked on
+
+2017-09-17 18:12:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:12:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:12:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_OK' is clicked on
+
+2017-09-17 18:12:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_OK' is clicked on
+
+2017-09-17 18:12:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:12:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:12:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_btn pull-right btn-defa' is clicked on
+
+2017-09-17 18:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_btn pull-right btn-defa' is clicked on
+
+2017-09-17 18:12:43 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2017-09-17 18:12:55 - [MESSAGE][PASSED] - Angular is ready.
+
+2017-09-17 18:12:55 - [TEST_STEP][PASSED] - setText: Text 'acv' is set on object 'Object Repository/Page_Procurement Management  Create/input_form-control ng-untouche'
+
+2017-09-17 18:12:55 - [MESSAGE][PASSED] - Text 'acv' is set on object 'Object Repository/Page_Procurement Management  Create/input_form-control ng-untouche'
+
+2017-09-17 18:12:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:12:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:12:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/a_ACV Measuring Mould' is clicked on
+
+2017-09-17 18:12:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/a_ACV Measuring Mould' is clicked on
+
+2017-09-17 18:12:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:12:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:12:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_OK' is clicked on
+
+2017-09-17 18:13:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_OK' is clicked on
+
+2017-09-17 18:13:00 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2017-09-17 18:13:01 - [MESSAGE][PASSED] - Angular is ready.
+
+2017-09-17 18:13:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/Click specification ID' is clicked on
+
+2017-09-17 18:13:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/Click specification ID' is clicked on
+
+2017-09-17 18:13:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:13:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:13:02 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value '{"idSpecifications":"4201","specificationName":"Spec 2"}' of object 'Object Repository/Page_Procurement Management  Create/select_specificationId'  using regular expression (Root cause: java.util.regex.PatternSyntaxException: Illegal repetition
+{"idSpecifications":"4201","specificationName":"Spec 2"})
+
+2017-09-17 18:13:02 - [MESSAGE][FAILED] - Unable to select option by value '{"idSpecifications":"4201","specificationName":"Spec 2"}' of object 'Object Repository/Page_Procurement Management  Create/select_specificationId'  using regular expression (Root cause: java.util.regex.PatternSyntaxException: Illegal repetition
+{"idSpecifications":"4201","specificationName":"Spec 2"})
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650382351.png]]
+
+2017-09-17 18:13:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:13:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:13:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/Click Size ID' is clicked on
+
+2017-09-17 18:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/Click Size ID' is clicked on
+
+2017-09-17 18:13:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:13:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:13:04 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value '{"idSize":"5849","sizeValue":"Size 2"}' of object 'Object Repository/Page_Procurement Management  Create/select_sizeId'  using regular expression (Root cause: java.util.regex.PatternSyntaxException: Illegal repetition
+{"idSize":"5849","sizeValue":"Size 2"})
+
+2017-09-17 18:13:05 - [MESSAGE][FAILED] - Unable to select option by value '{"idSize":"5849","sizeValue":"Size 2"}' of object 'Object Repository/Page_Procurement Management  Create/select_sizeId'  using regular expression (Root cause: java.util.regex.PatternSyntaxException: Illegal repetition
+{"idSize":"5849","sizeValue":"Size 2"})
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650384863.png]]
+
+2017-09-17 18:13:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:13:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:13:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/click color Id' is clicked on
+
+2017-09-17 18:13:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/click color Id' is clicked on
+
+2017-09-17 18:13:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:13:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:13:07 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value '{"idColor":"219","colorName":"Color 2"}' of object 'Object Repository/Page_Procurement Management  Create/select_colorId'  using regular expression (Root cause: java.util.regex.PatternSyntaxException: Illegal repetition
+{"idColor":"219","colorName":"Color 2"})
+
+2017-09-17 18:13:07 - [MESSAGE][FAILED] - Unable to select option by value '{"idColor":"219","colorName":"Color 2"}' of object 'Object Repository/Page_Procurement Management  Create/select_colorId'  using regular expression (Root cause: java.util.regex.PatternSyntaxException: Illegal repetition
+{"idColor":"219","colorName":"Color 2"})
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650387386.png]]
+
+2017-09-17 18:13:07 - [TEST_STEP][PASSED] - setText: Text 'mkGhost' is set on object 'Object Repository/Page_Procurement Management  Create/input_receiverNameTemp'
+
+2017-09-17 18:13:07 - [MESSAGE][PASSED] - Text 'mkGhost' is set on object 'Object Repository/Page_Procurement Management  Create/input_receiverNameTemp'
+
+2017-09-17 18:13:07 - [TEST_STEP][PASSED] - setText: Text '20no road mohakhali DOHS' is set on object 'Object Repository/Page_Procurement Management  Create/input_receivingAddress'
+
+2017-09-17 18:13:08 - [MESSAGE][PASSED] - Text '20no road mohakhali DOHS' is set on object 'Object Repository/Page_Procurement Management  Create/input_receivingAddress'
+
+2017-09-17 18:13:08 - [TEST_STEP][PASSED] - setText: Text '250' is set on object 'Object Repository/Page_Procurement Management  Create/input_quantity'
+
+2017-09-17 18:13:08 - [MESSAGE][PASSED] - Text '250' is set on object 'Object Repository/Page_Procurement Management  Create/input_quantity'
+
+2017-09-17 18:13:08 - [TEST_STEP][PASSED] - setText: Text 'Test Item' is set on object 'Object Repository/Page_Procurement Management  Create/input_itemDesc'
+
+2017-09-17 18:13:08 - [MESSAGE][PASSED] - Text 'Test Item' is set on object 'Object Repository/Page_Procurement Management  Create/input_itemDesc'
+
+2017-09-17 18:13:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:13:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:13:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_Add Item' is clicked on
+
+2017-09-17 18:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_Add Item' is clicked on
+
+2017-09-17 18:13:09 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:13:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:13:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_Submit' is clicked on
+
+2017-09-17 18:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_Submit' is clicked on
+
+2017-09-17 18:13:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:13:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:13:11 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Cancel' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_Cancel' located by 'By.xpath: //button[count(. | //*[contains(.,'Cancel')]) = count(//*[contains(.,'Cancel')])]' not found)
+
+2017-09-17 18:13:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Cancel' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_Cancel' located by 'By.xpath: //button[count(. | //*[contains(.,'Cancel')]) = count(//*[contains(.,'Cancel')])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_181036\\1505650408432.png]]
+
+2017-09-17 18:13:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:13:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:13:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_Submit (1)' is clicked on
+
+2017-09-17 18:13:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_Submit (1)' is clicked on
+
+2017-09-17 18:13:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:13:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:13:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_Submit (2)' is clicked on
+
+2017-09-17 18:13:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_Submit (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[2017-09-17 18:10:52 - [TEST_CASE][FAILED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-17 18:10:37 - [TEST_SUITE][FAILED] - TestSuite-CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-09-17 18:10:37 - [TEST_SUITE][FAILED] - TestSuite-CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

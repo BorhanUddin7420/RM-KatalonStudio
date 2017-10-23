@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SelectRole" time="46" tests="2" failures="1" errors="0">
+   <testsuite name="SelectRole" tests="2" failures="1" errors="0" time="46" timestamp="2017-09-17 12:42:59" hostname="mithu - DESKTOP-1QKO1SP" id="Test Suites/SelectRole">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_124258"/>
+         <property name="logFiles" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_124258\\execution0.log"/>
+         <property name="attachments" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_124258\\1505630625654.png"/>
+         <property name="hostName" value="mithu - DESKTOP-1QKO1SP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 53.0"/>
+         <property name="hostAddress" value="192.168.91.161"/>
+         <property name="sessionId" value="181d8c0b-d93b-47cf-accb-7928de08a7a3"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2017-09-17 12:43:00 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-09-17 12:43:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-17 12:43:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-17 12:43:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-09-17 12:43:06 - [MESSAGE][PASSED] - Current window maximized
+
+2017-09-17 12:43:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-17 12:43:07 - [MESSAGE][PASSED] - Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-17 12:43:07 - [TEST_STEP][PASSED] - setText: Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-17 12:43:11 - [MESSAGE][PASSED] - Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-17 12:43:11 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-17 12:43:12 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-17 12:43:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on
+
+2017-09-17 12:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SelectRole" classname="Test Cases/SelectRole" status="PASSED">
+         <system-out><![CDATA[2017-09-17 12:43:12 - [TEST_CASE][PASSED] - Test Cases/SelectRole: Test Cases/SelectRole
+
+2017-09-17 12:43:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-09-17 12:43:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-09-17 12:43:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/select_input' is clicked on
+
+2017-09-17 12:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/select_input' is clicked on
+
+2017-09-17 12:43:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' is clicked on
+
+2017-09-17 12:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' is clicked on
+
+2017-09-17 12:43:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/button_Enter' is clicked on
+
+2017-09-17 12:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/button_Enter' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateMaterialRequisition" classname="Test Cases/CreateMaterialRequisition" status="FAILED">
+         <failure type="FAILED" message="Unable to move mouse over object 'Object Repository/create material requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/span_Requisitions' located by 'By.xpath: /html[@class=&quot;ng-scope&quot;]/body[@class=&quot;page-header-fixed page-sidebar-closed-hide-logo ng-scope page-content-white&quot;]/div[@class=&quot;page-container&quot;]/div[@class=&quot;page-sidebar-wrapper ng-scope&quot;]/div[@class=&quot;page-sidebar navbar-collapse collapse ng-scope&quot;]/ul[@class=&quot;page-sidebar-menu page-sidebar-menu-hover-submenu&quot;]/li[@class=&quot;nav-item ng-scope&quot;]/a[@class=&quot;nav-link nav-toggle&quot;]/span[@class=&quot;title&quot;]' not found)"/>
+         <system-out><![CDATA[2017-09-17 12:43:18 - [TEST_CASE][FAILED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to move mouse over object 'Object Repository/create material requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/span_Requisitions' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="page-header-fixed page-sidebar-closed-hide-logo ng-scope page-content-white"]/div[@class="page-container"]/div[@class="page-sidebar-wrapper ng-scope"]/div[@class="page-sidebar navbar-collapse collapse ng-scope"]/ul[@class="page-sidebar-menu page-sidebar-menu-hover-submenu"]/li[@class="nav-item ng-scope"]/a[@class="nav-link nav-toggle"]/span[@class="title"]' not found)
+
+2017-09-17 12:43:18 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-17 12:43:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-17 12:43:28 - [TEST_STEP][FAILED] - mouseOver: Unable to move mouse over object 'Object Repository/create material requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/span_Requisitions' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="page-header-fixed page-sidebar-closed-hide-logo ng-scope page-content-white"]/div[@class="page-container"]/div[@class="page-sidebar-wrapper ng-scope"]/div[@class="page-sidebar navbar-collapse collapse ng-scope"]/ul[@class="page-sidebar-menu page-sidebar-menu-hover-submenu"]/li[@class="nav-item ng-scope"]/a[@class="nav-link nav-toggle"]/span[@class="title"]' not found)
+
+2017-09-17 12:43:45 - [MESSAGE][FAILED] - Unable to move mouse over object 'Object Repository/create material requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/span_Requisitions' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="page-header-fixed page-sidebar-closed-hide-logo ng-scope page-content-white"]/div[@class="page-container"]/div[@class="page-sidebar-wrapper ng-scope"]/div[@class="page-sidebar navbar-collapse collapse ng-scope"]/ul[@class="page-sidebar-menu page-sidebar-menu-hover-submenu"]/li[@class="nav-item ng-scope"]/a[@class="nav-link nav-toggle"]/span[@class="title"]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_124258\\1505630625654.png]]]]></system-out>
+         <system-err><![CDATA[2017-09-17 12:43:18 - [TEST_CASE][FAILED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to move mouse over object 'Object Repository/create material requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/span_Requisitions' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="page-header-fixed page-sidebar-closed-hide-logo ng-scope page-content-white"]/div[@class="page-container"]/div[@class="page-sidebar-wrapper ng-scope"]/div[@class="page-sidebar navbar-collapse collapse ng-scope"]/ul[@class="page-sidebar-menu page-sidebar-menu-hover-submenu"]/li[@class="nav-item ng-scope"]/a[@class="nav-link nav-toggle"]/span[@class="title"]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-17 12:42:59 - [TEST_SUITE][FAILED] - SelectRole: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to move mouse over object 'Object Repository/create material requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/span_Requisitions' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="page-header-fixed page-sidebar-closed-hide-logo ng-scope page-content-white"]/div[@class="page-container"]/div[@class="page-sidebar-wrapper ng-scope"]/div[@class="page-sidebar navbar-collapse collapse ng-scope"]/ul[@class="page-sidebar-menu page-sidebar-menu-hover-submenu"]/li[@class="nav-item ng-scope"]/a[@class="nav-link nav-toggle"]/span[@class="title"]' not found)]]></system-out>
+      <system-err><![CDATA[2017-09-17 12:42:59 - [TEST_SUITE][FAILED] - SelectRole: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to move mouse over object 'Object Repository/create material requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/span_Requisitions' located by 'By.xpath: /html[@class="ng-scope"]/body[@class="page-header-fixed page-sidebar-closed-hide-logo ng-scope page-content-white"]/div[@class="page-container"]/div[@class="page-sidebar-wrapper ng-scope"]/div[@class="page-sidebar navbar-collapse collapse ng-scope"]/ul[@class="page-sidebar-menu page-sidebar-menu-hover-submenu"]/li[@class="nav-item ng-scope"]/a[@class="nav-link nav-toggle"]/span[@class="title"]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

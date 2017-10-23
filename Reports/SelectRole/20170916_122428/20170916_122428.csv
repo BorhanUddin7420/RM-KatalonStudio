@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SelectRole,Firefox 53.0,,2017-09-16 12:24:29,2017-09-16 12:26:04,1m - 35.016s,FAILED
+,,,,,,
+Test Cases/Login,Firefox 53.0,,2017-09-16 12:24:30,2017-09-16 12:24:59,29.564s,PASSED
+openBrowser,Firefox 53.0,,2017-09-16 12:24:30,2017-09-16 12:24:37,7.158s,PASSED
+maximizeWindow,Firefox 53.0,,2017-09-16 12:24:37,2017-09-16 12:24:37,0.113s,PASSED
+navigateToUrl,Firefox 53.0,,2017-09-16 12:24:37,2017-09-16 12:24:38,0.987s,PASSED
+setText,Firefox 53.0,,2017-09-16 12:24:38,2017-09-16 12:24:59,20.468s,PASSED
+setText,Firefox 53.0,,2017-09-16 12:24:59,2017-09-16 12:24:59,0.143s,PASSED
+click,Firefox 53.0,,2017-09-16 12:24:59,2017-09-16 12:24:59,0.186s,PASSED
+,,,,,,
+Test Cases/SelectRole,Firefox 53.0,,2017-09-16 12:24:59,2017-09-16 12:26:04,1m - 4.554s,FAILED
+waitForPageLoad,Firefox 53.0,,2017-09-16 12:24:59,2017-09-16 12:25:00,0.108s,PASSED
+selectOptionByValue,Firefox 53.0,,2017-09-16 12:25:00,2017-09-16 12:26:04,1m - 4.246s,FAILED

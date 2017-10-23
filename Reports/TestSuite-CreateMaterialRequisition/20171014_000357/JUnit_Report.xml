@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite-CreateMaterialRequisition" time="730" tests="0" failures="3" errors="0">
+   <testsuite name="TestSuite-CreateMaterialRequisition" tests="0" failures="3" errors="0" time="730" timestamp="2017-10-14 00:03:59" hostname="Asus - DESKTOP-SQEFDD7" id="Test Suites/TestSuite-CreateMaterialRequisition">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357"/>
+         <property name="logFiles" value="E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\execution0.log"/>
+         <property name="attachments" value="E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917857708.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917863928.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917879329.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917894659.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917909925.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917927691.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917944976.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917962232.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917964366.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917979611.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917999958.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918015226.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918030405.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918045653.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918060873.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918076100.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918091327.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918106607.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918121837.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918139039.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918154273.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918169452.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918185650.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918201846.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918202015.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918217230.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918233461.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918250721.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918250921.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918266147.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918283353.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918300533.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918300629.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918315822.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918332025.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918348206.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918364395.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918380574.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918396766.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918411952.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918427133.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918442320.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918457505.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918472682.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918487858.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918504053.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918520228.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918536395.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918552572.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918568749.png, E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918568897.png"/>
+         <property name="hostName" value="Asus - DESKTOP-SQEFDD7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="JBrowser (headless)"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="[Instance 1][Port 2607]"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="FAILED">
+         <failure type="FAILED" message="Unable to verify text 'Select A Role' is present  (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)"/>
+         <system-out><![CDATA[2017-10-14 00:03:59 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Unable to verify text 'Select A Role' is present  (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)
+
+2017-10-14 00:04:00 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-10-14 00:04:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-10-14 00:04:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-10-14 00:04:05 - [MESSAGE][PASSED] - Current window maximized
+
+2017-10-14 00:04:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-10-14 00:04:13 - [MESSAGE][PASSED] - Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-10-14 00:04:13 - [TEST_STEP][PASSED] - setText: Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-10-14 00:04:15 - [MESSAGE][PASSED] - Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-10-14 00:04:15 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-10-14 00:04:16 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-10-14 00:04:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on
+
+2017-10-14 00:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on
+
+2017-10-14 00:04:16 - [TEST_STEP][FAILED] - verifyTextPresent: Unable to verify text 'Select A Role' is present  (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)
+
+2017-10-14 00:04:18 - [MESSAGE][FAILED] - Unable to verify text 'Select A Role' is present  (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917857708.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-14 00:03:59 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Unable to verify text 'Select A Role' is present  (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SelectRole" classname="Test Cases/SelectRole" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Procurement Management  Role S/select_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //*[@id=&quot;input&quot;]' not found)"/>
+         <system-out><![CDATA[2017-10-14 00:04:18 - [TEST_CASE][FAILED] - Test Cases/SelectRole: Test Cases/SelectRole FAILED because (of) Unable to click on object 'Object Repository/Page_Procurement Management  Role S/select_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //*[@id="input"]' not found)
+
+2017-10-14 00:04:18 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-14 00:04:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-14 00:04:23 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2017-10-14 00:04:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917863928.png]]
+
+2017-10-14 00:04:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Role S/select_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //*[@id="input"]' not found)
+
+2017-10-14 00:04:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Role S/select_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //*[@id="input"]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917879329.png]]
+
+2017-10-14 00:04:39 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' located by 'By.xpath: //option[contains(.,'Requester at CDA')]' not found)
+
+2017-10-14 00:04:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' located by 'By.xpath: //option[contains(.,'Requester at CDA')]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917894659.png]]
+
+2017-10-14 00:04:54 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Role S/button_Enter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/button_Enter' located by 'By.xpath: //button[count(. | //*[contains(.,'Enter')]) = count(//*[contains(.,'Enter')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+
+2017-10-14 00:05:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Role S/button_Enter' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/button_Enter' located by 'By.xpath: //button[count(. | //*[contains(.,'Enter')]) = count(//*[contains(.,'Enter')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917909925.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-14 00:04:18 - [TEST_CASE][FAILED] - Test Cases/SelectRole: Test Cases/SelectRole FAILED because (of) Unable to click on object 'Object Repository/Page_Procurement Management  Role S/select_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //*[@id="input"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateMaterialRequisition" classname="Test Cases/CreateMaterialRequisition" status="FAILED">
+         <failure type="FAILED" message="Unable to move mouse over object 'Object Repository/create material requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/span_Requisitions' located by 'By.xpath: //i[@class='icon-docs']' not found)"/>
+         <system-out><![CDATA[2017-10-14 00:05:10 - [TEST_CASE][FAILED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to move mouse over object 'Object Repository/create material requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/span_Requisitions' located by 'By.xpath: //i[@class='icon-docs']' not found)
+
+2017-10-14 00:05:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-10-14 00:05:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-10-14 00:05:12 - [TEST_STEP][FAILED] - mouseOver: Unable to move mouse over object 'Object Repository/create material requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/span_Requisitions' located by 'By.xpath: //i[@class='icon-docs']' not found)
+
+2017-10-14 00:05:27 - [MESSAGE][FAILED] - Unable to move mouse over object 'Object Repository/create material requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/span_Requisitions' located by 'By.xpath: //i[@class='icon-docs']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917927691.png]]
+
+2017-10-14 00:05:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-10-14 00:05:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-10-14 00:05:29 - [TEST_STEP][FAILED] - mouseOver: Unable to move mouse over object 'Object Repository/create material requisition/a_Create Requisition' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/a_Create Requisition' located by 'By.xpath: //i[@class='fa fa-plus-square']' not found)
+
+2017-10-14 00:05:45 - [MESSAGE][FAILED] - Unable to move mouse over object 'Object Repository/create material requisition/a_Create Requisition' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/a_Create Requisition' located by 'By.xpath: //i[@class='fa fa-plus-square']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917944976.png]]
+
+2017-10-14 00:05:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-10-14 00:05:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-10-14 00:05:47 - [TEST_STEP][FAILED] - mouseOver: Unable to move mouse over object 'Object Repository/create material requisition/a_Material Requisition' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/a_Material Requisition' located by 'By.xpath: //a[@href='#/requisition/material/create']' not found)
+
+2017-10-14 00:06:02 - [MESSAGE][FAILED] - Unable to move mouse over object 'Object Repository/create material requisition/a_Material Requisition' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/a_Material Requisition' located by 'By.xpath: //a[@href='#/requisition/material/create']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917962232.png]]
+
+2017-10-14 00:06:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-10-14 00:06:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-10-14 00:06:04 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2017-10-14 00:06:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917964366.png]]
+
+2017-10-14 00:06:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/create material requisition/a_Material Requisition' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/a_Material Requisition' located by 'By.xpath: //a[@href='#/requisition/material/create']' not found)
+
+2017-10-14 00:06:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/create material requisition/a_Material Requisition' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/a_Material Requisition' located by 'By.xpath: //a[@href='#/requisition/material/create']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917979611.png]]
+
+2017-10-14 00:06:19 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@5118388b
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.jbrowser.CJBrowserDriver
+Capabilities [{jbd.ajaxwait=150, jbd.useragent=tor, jbd.savemedia=false, jbd.logtrace=false, jbd.maxconnections=300, jbd.cacheentries=10000, jbd.quickrender=false, platform=ANY, jbd.screenwidth=1000, jbd.ignoredialogs=true, jbd.javascript=true, jbd.processes=8, jbd.connecttimeout=-1, jbd.screenheight=600, jbd.logger=com.machinepublishers.jbrowserdriver, jbd.connectionreqtimeout=-1, jbd.cache=false, jbd.host=127.0.0.1, browserName=jbrowserdriver, jbd.headscript=Object.defineProperty(window, 'external', {value:{AddSearchProvider:function(){},IsSearchProviderInstalled:function(){},addSearchEngine:function(){}}});Object.defineProperty(window.external.AddSearchProvider, 'toString', {value:function(){return 'function AddSearchProvider() { [native code] }';}});Object.defineProperty(window.external.IsSearchProviderInstalled, 'toString', {value:function(){return 'function IsSearchProviderInstalled() { [native code] }';}});Object.defineProperty(window.external.addSearchEngine, 'toString', {value:function(){return 'function addSearchEngine() { [native code] }';}});Object.defineProperty(HTMLCanvasElement.prototype, 'toBlob', {value:function(){return undefined;}});Object.defineProperty(HTMLCanvasElement.prototype, 'toDataURL', {value:function(){return undefined;}});Object.defineProperty(CanvasRenderingContext2D.prototype, 'getImageData', {value:function(){return undefined;}});Object.defineProperty(CanvasRenderingContext2D.prototype, 'measureText', {value:function(){return undefined;}});Object.defineProperty(CanvasRenderingContext2D.prototype, 'isPointInPath', {value:function(){return undefined;}});Object.defineProperty(CanvasRenderingContext2D.prototype, 'isPointInStroke', {value:function(){return undefined;}});, jbd.headless=true, jbd.cacheentrysize=1000000, jbd.hostnameverification=true, jbd.ajaxresourcetimeout=2000, jbd.logwire=false, version=, jbd.timezone=UTC, jbd.saveattachments=false, jbd.javaexportmodules=false, jbd.sockettimeout=-1, jbd.maxrouteconnections=8, jbd.logjavascript=false, jbd.logwarnings=true, jbd.logsmax=1000, jbd.blockads=false}]
+Session ID: [Instance 1][Port 2607])
+
+2017-10-14 00:06:40 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@5118388b
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.jbrowser.CJBrowserDriver
+Capabilities [{jbd.ajaxwait=150, jbd.useragent=tor, jbd.savemedia=false, jbd.logtrace=false, jbd.maxconnections=300, jbd.cacheentries=10000, jbd.quickrender=false, platform=ANY, jbd.screenwidth=1000, jbd.ignoredialogs=true, jbd.javascript=true, jbd.processes=8, jbd.connecttimeout=-1, jbd.screenheight=600, jbd.logger=com.machinepublishers.jbrowserdriver, jbd.connectionreqtimeout=-1, jbd.cache=false, jbd.host=127.0.0.1, browserName=jbrowserdriver, jbd.headscript=Object.defineProperty(window, 'external', {value:{AddSearchProvider:function(){},IsSearchProviderInstalled:function(){},addSearchEngine:function(){}}});Object.defineProperty(window.external.AddSearchProvider, 'toString', {value:function(){return 'function AddSearchProvider() { [native code] }';}});Object.defineProperty(window.external.IsSearchProviderInstalled, 'toString', {value:function(){return 'function IsSearchProviderInstalled() { [native code] }';}});Object.defineProperty(window.external.addSearchEngine, 'toString', {value:function(){return 'function addSearchEngine() { [native code] }';}});Object.defineProperty(HTMLCanvasElement.prototype, 'toBlob', {value:function(){return undefined;}});Object.defineProperty(HTMLCanvasElement.prototype, 'toDataURL', {value:function(){return undefined;}});Object.defineProperty(CanvasRenderingContext2D.prototype, 'getImageData', {value:function(){return undefined;}});Object.defineProperty(CanvasRenderingContext2D.prototype, 'measureText', {value:function(){return undefined;}});Object.defineProperty(CanvasRenderingContext2D.prototype, 'isPointInPath', {value:function(){return undefined;}});Object.defineProperty(CanvasRenderingContext2D.prototype, 'isPointInStroke', {value:function(){return undefined;}});, jbd.headless=true, jbd.cacheentrysize=1000000, jbd.hostnameverification=true, jbd.ajaxresourcetimeout=2000, jbd.logwire=false, version=, jbd.timezone=UTC, jbd.saveattachments=false, jbd.javaexportmodules=false, jbd.sockettimeout=-1, jbd.maxrouteconnections=8, jbd.logjavascript=false, jbd.logwarnings=true, jbd.logsmax=1000, jbd.blockads=false}]
+Session ID: [Instance 1][Port 2607])
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507917999958.png]]
+
+2017-10-14 00:06:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-10-14 00:06:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918015226.png]]
+
+2017-10-14 00:06:55 - [TEST_STEP][FAILED] - setText: Unable to set text 'Material Requisition 1A' of object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-10-14 00:07:10 - [MESSAGE][FAILED] - Unable to set text 'Material Requisition 1A' of object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918030405.png]]
+
+2017-10-14 00:07:10 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/requestTo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/requestTo' located by 'By.xpath: //input[@name='approverName']' not found)
+
+2017-10-14 00:07:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/requestTo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/requestTo' located by 'By.xpath: //input[@name='approverName']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918045653.png]]
+
+2017-10-14 00:07:25 - [TEST_STEP][FAILED] - setText: Unable to set text 'Fahad Billah (Local Approver)' of object 'Object Repository/Page_Procurement Management  Create/requestTo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/requestTo' located by 'By.xpath: //input[@name='approverName']' not found)
+
+2017-10-14 00:07:41 - [MESSAGE][FAILED] - Unable to set text 'Fahad Billah (Local Approver)' of object 'Object Repository/Page_Procurement Management  Create/requestTo' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/requestTo' located by 'By.xpath: //input[@name='approverName']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918060873.png]]
+
+2017-10-14 00:07:41 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' located by 'By.xpath: //div/div[2]/div/ul/li[1]' not found)
+
+2017-10-14 00:07:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' located by 'By.xpath: //div/div[2]/div/ul/li[1]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918076100.png]]
+
+2017-10-14 00:07:56 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_receiverName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_receiverName' located by 'By.xpath: //input[count(. | //*[@name = 'receiverName']) = count(//*[@name = 'receiverName'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-10-14 00:08:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_receiverName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_receiverName' located by 'By.xpath: //input[count(. | //*[@name = 'receiverName']) = count(//*[@name = 'receiverName'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918091327.png]]
+
+2017-10-14 00:08:11 - [TEST_STEP][FAILED] - setText: Unable to set text 'Fahad Billah' of object 'Object Repository/Page_Procurement Management  Create/input_receiverName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_receiverName' located by 'By.xpath: //input[count(. | //*[@name = 'receiverName']) = count(//*[@name = 'receiverName'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-10-14 00:08:26 - [MESSAGE][FAILED] - Unable to set text 'Fahad Billah' of object 'Object Repository/Page_Procurement Management  Create/input_receiverName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_receiverName' located by 'By.xpath: //input[count(. | //*[@name = 'receiverName']) = count(//*[@name = 'receiverName'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918106607.png]]
+
+2017-10-14 00:08:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah' located by 'By.xpath: //div/div[3]/div/ul/li' not found)
+
+2017-10-14 00:08:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah' located by 'By.xpath: //div/div[3]/div/ul/li' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918121837.png]]
+
+2017-10-14 00:08:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-10-14 00:08:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-10-14 00:08:43 - [TEST_STEP][FAILED] - setText: Unable to set text 'Mamun Rasid' of object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterName (2)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_originalRequesterName (2)' located by 'By.xpath: //input[count(. | //*[@name = 'originalRequesterName']) = count(//*[@name = 'originalRequesterName'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-10-14 00:08:59 - [MESSAGE][FAILED] - Unable to set text 'Mamun Rasid' of object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterName (2)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_originalRequesterName (2)' located by 'By.xpath: //input[count(. | //*[@name = 'originalRequesterName']) = count(//*[@name = 'originalRequesterName'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918139039.png]]
+
+2017-10-14 00:08:59 - [TEST_STEP][FAILED] - setText: Unable to set text '01745677420' of object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterPhone (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_originalRequesterPhone (1)' located by 'By.xpath: //input[count(. | //*[@name = 'originalRequesterPhone']) = count(//*[@name = 'originalRequesterPhone'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-10-14 00:09:14 - [MESSAGE][FAILED] - Unable to set text '01745677420' of object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterPhone (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_originalRequesterPhone (1)' located by 'By.xpath: //input[count(. | //*[@name = 'originalRequesterPhone']) = count(//*[@name = 'originalRequesterPhone'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918154273.png]]
+
+2017-10-14 00:09:14 - [TEST_STEP][FAILED] - setText: Unable to set text 'Test Team Qa-katalon' of object 'Object Repository/Page_Procurement Management  Create/textarea_remarks' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/textarea_remarks' located by 'By.xpath: //textarea[count(. | //*[@id = 'remarks']) = count(//*[@id = 'remarks'])]' not found)
+
+2017-10-14 00:09:29 - [MESSAGE][FAILED] - Unable to set text 'Test Team Qa-katalon' of object 'Object Repository/Page_Procurement Management  Create/textarea_remarks' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/textarea_remarks' located by 'By.xpath: //textarea[count(. | //*[@id = 'remarks']) = count(//*[@id = 'remarks'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918169452.png]]
+
+2017-10-14 00:09:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:09:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:09:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/span_Item Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/span_Item Details' located by 'By.xpath: //span[count(. | //*[contains(.,'Item Details')]) = count(//*[contains(.,'Item Details')])]' not found)
+
+2017-10-14 00:09:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/span_Item Details' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/span_Item Details' located by 'By.xpath: //span[count(. | //*[contains(.,'Item Details')]) = count(//*[contains(.,'Item Details')])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918185650.png]]
+
+2017-10-14 00:09:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:09:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:09:46 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/CostCenterName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/CostCenterName' located by 'By.xpath: //input[@name='ccName']' not found)
+
+2017-10-14 00:10:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/CostCenterName' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/CostCenterName' located by 'By.xpath: //input[@name='ccName']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918201846.png]]
+
+2017-10-14 00:10:01 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)
+
+2017-10-14 00:10:02 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918202015.png]]
+
+2017-10-14 00:10:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/a_10100.12 Engineers  Employer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/a_10100.12 Engineers  Employer' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[@id = '176_anchor']) = count(//*[@id = '176_anchor'])][count(. | //*[contains(.,'10100.12 Engineers & Employers Office')]) = count(//*[contains(.,'10100.12 Engineers & Employers Office')])]' not found)
+
+2017-10-14 00:10:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/a_10100.12 Engineers  Employer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/a_10100.12 Engineers  Employer' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[@id = '176_anchor']) = count(//*[@id = '176_anchor'])][count(. | //*[contains(.,'10100.12 Engineers & Employers Office')]) = count(//*[contains(.,'10100.12 Engineers & Employers Office')])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918217230.png]]
+
+2017-10-14 00:10:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:10:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:10:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_OK' located by 'By.xpath: //button[count(. | //*[contains(.,'OK')]) = count(//*[contains(.,'OK')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+
+2017-10-14 00:10:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_OK' located by 'By.xpath: //button[count(. | //*[contains(.,'OK')]) = count(//*[contains(.,'OK')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918233461.png]]
+
+2017-10-14 00:10:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-10-14 00:10:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-10-14 00:10:35 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_btn pull-right btn-defa' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_btn pull-right btn-defa' located by 'By.xpath: //input[@name='itemName']' not found)
+
+2017-10-14 00:10:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_btn pull-right btn-defa' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_btn pull-right btn-defa' located by 'By.xpath: //input[@name='itemName']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918250721.png]]
+
+2017-10-14 00:10:50 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)
+
+2017-10-14 00:10:51 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918250921.png]]
+
+2017-10-14 00:10:51 - [TEST_STEP][FAILED] - setText: Unable to set text 'acv' of object 'Object Repository/Page_Procurement Management  Create/input_form-control ng-untouche' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_form-control ng-untouche' located by 'By.xpath: //input[@ng-keyup='treeSearch()']' not found)
+
+2017-10-14 00:11:06 - [MESSAGE][FAILED] - Unable to set text 'acv' of object 'Object Repository/Page_Procurement Management  Create/input_form-control ng-untouche' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_form-control ng-untouche' located by 'By.xpath: //input[@ng-keyup='treeSearch()']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918266147.png]]
+
+2017-10-14 00:11:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-10-14 00:11:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-10-14 00:11:08 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/a_ACV Measuring Mould' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/a_ACV Measuring Mould' located by 'By.xpath: //a[@id='2670_anchor']' not found)
+
+2017-10-14 00:11:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/a_ACV Measuring Mould' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/a_ACV Measuring Mould' located by 'By.xpath: //a[@id='2670_anchor']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918283353.png]]
+
+2017-10-14 00:11:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-10-14 00:11:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-10-14 00:11:25 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_OK' located by 'By.xpath: //button[count(. | //*[contains(.,'OK')]) = count(//*[contains(.,'OK')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+
+2017-10-14 00:11:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_OK' located by 'By.xpath: //button[count(. | //*[contains(.,'OK')]) = count(//*[contains(.,'OK')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918300533.png]]
+
+2017-10-14 00:11:40 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)
+
+2017-10-14 00:11:40 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918300629.png]]
+
+2017-10-14 00:11:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/Click specification ID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/Click specification ID' located by 'By.xpath: //select[@name='specificationId']' not found)
+
+2017-10-14 00:11:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/Click specification ID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/Click specification ID' located by 'By.xpath: //select[@name='specificationId']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918315822.png]]
+
+2017-10-14 00:11:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:11:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:11:56 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/select_specificationId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/select_specificationId' located by 'By.xpath: //option[contains(.,'Spec 2')]' not found)
+
+2017-10-14 00:12:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/select_specificationId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/select_specificationId' located by 'By.xpath: //option[contains(.,'Spec 2')]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918332025.png]]
+
+2017-10-14 00:12:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:12:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:12:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/Click Size ID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/Click Size ID' located by 'By.xpath: //select[@name='sizeId']' not found)
+
+2017-10-14 00:12:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/Click Size ID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/Click Size ID' located by 'By.xpath: //select[@name='sizeId']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918348206.png]]
+
+2017-10-14 00:12:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:12:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:12:29 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/select_sizeId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/select_sizeId' located by 'By.xpath: //option[contains(.,'Size 2')]' not found)
+
+2017-10-14 00:12:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/select_sizeId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/select_sizeId' located by 'By.xpath: //option[contains(.,'Size 2')]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918364395.png]]
+
+2017-10-14 00:12:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:12:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:12:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/click color Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/click color Id' located by 'By.xpath: //select[@name='colorId']' not found)
+
+2017-10-14 00:13:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/click color Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/click color Id' located by 'By.xpath: //select[@name='colorId']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918380574.png]]
+
+2017-10-14 00:13:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:13:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:13:01 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/select_colorId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/select_colorId' located by 'By.xpath: //option[contains(.,'Color 1')]' not found)
+
+2017-10-14 00:13:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/select_colorId' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/select_colorId' located by 'By.xpath: //option[contains(.,'Color 1')]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918396766.png]]
+
+2017-10-14 00:13:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/create material requisition/Page_Procurement Management  Create/i_glyphicon glyphicon-calendar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/Page_Procurement Management  Create/i_glyphicon glyphicon-calendar' located by 'By.xpath: //button[@ng-click='open1()']' not found)
+
+2017-10-14 00:13:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/create material requisition/Page_Procurement Management  Create/i_glyphicon glyphicon-calendar' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/Page_Procurement Management  Create/i_glyphicon glyphicon-calendar' located by 'By.xpath: //button[@ng-click='open1()']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918411952.png]]
+
+2017-10-14 00:13:32 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/create material requisition/Page_Procurement Management  Create/button_btn btn-default btn-sm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/Page_Procurement Management  Create/button_btn btn-default btn-sm' located by 'By.xpath: //button[count(. | id("datepicker-626-3948-16")/button[@class="btn btn-default btn-sm"]) = count(id("datepicker-626-3948-16")/button[@class="btn btn-default btn-sm"])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+
+2017-10-14 00:13:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/create material requisition/Page_Procurement Management  Create/button_btn btn-default btn-sm' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/Page_Procurement Management  Create/button_btn btn-default btn-sm' located by 'By.xpath: //button[count(. | id("datepicker-626-3948-16")/button[@class="btn btn-default btn-sm"]) = count(id("datepicker-626-3948-16")/button[@class="btn btn-default btn-sm"])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918427133.png]]
+
+2017-10-14 00:13:47 - [TEST_STEP][FAILED] - setText: Unable to set text 'mkGhost' of object 'Object Repository/Page_Procurement Management  Create/input_receiverNameTemp' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_receiverNameTemp' located by 'By.xpath: //input[count(. | //*[@name = 'receiverNameTemp']) = count(//*[@name = 'receiverNameTemp'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-10-14 00:14:02 - [MESSAGE][FAILED] - Unable to set text 'mkGhost' of object 'Object Repository/Page_Procurement Management  Create/input_receiverNameTemp' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_receiverNameTemp' located by 'By.xpath: //input[count(. | //*[@name = 'receiverNameTemp']) = count(//*[@name = 'receiverNameTemp'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918442320.png]]
+
+2017-10-14 00:14:02 - [TEST_STEP][FAILED] - setText: Unable to set text '20no road mohakhali DOHS' of object 'Object Repository/Page_Procurement Management  Create/input_receivingAddress' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_receivingAddress' located by 'By.xpath: //input[count(. | //*[@name = 'receivingAddress']) = count(//*[@name = 'receivingAddress'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-10-14 00:14:17 - [MESSAGE][FAILED] - Unable to set text '20no road mohakhali DOHS' of object 'Object Repository/Page_Procurement Management  Create/input_receivingAddress' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_receivingAddress' located by 'By.xpath: //input[count(. | //*[@name = 'receivingAddress']) = count(//*[@name = 'receivingAddress'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918457505.png]]
+
+2017-10-14 00:14:17 - [TEST_STEP][FAILED] - setText: Unable to set text '250' of object 'Object Repository/Page_Procurement Management  Create/input_quantity' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_quantity' located by 'By.xpath: //input[count(. | //*[@name = 'quantity']) = count(//*[@name = 'quantity'])][count(. | //*[@type = 'number']) = count(//*[@type = 'number'])]' not found)
+
+2017-10-14 00:14:32 - [MESSAGE][FAILED] - Unable to set text '250' of object 'Object Repository/Page_Procurement Management  Create/input_quantity' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_quantity' located by 'By.xpath: //input[count(. | //*[@name = 'quantity']) = count(//*[@name = 'quantity'])][count(. | //*[@type = 'number']) = count(//*[@type = 'number'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918472682.png]]
+
+2017-10-14 00:14:32 - [TEST_STEP][FAILED] - setText: Unable to set text 'Test Item' of object 'Object Repository/Page_Procurement Management  Create/input_itemDesc' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_itemDesc' located by 'By.xpath: //input[count(. | //*[@name = 'itemDesc']) = count(//*[@name = 'itemDesc'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-10-14 00:14:47 - [MESSAGE][FAILED] - Unable to set text 'Test Item' of object 'Object Repository/Page_Procurement Management  Create/input_itemDesc' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_itemDesc' located by 'By.xpath: //input[count(. | //*[@name = 'itemDesc']) = count(//*[@name = 'itemDesc'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918487858.png]]
+
+2017-10-14 00:14:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:14:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:14:48 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Add Item' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_Add Item' located by 'By.xpath: //button[count(. | //*[contains(.,'Add Item')]) = count(//*[contains(.,'Add Item')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+
+2017-10-14 00:15:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Add Item' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_Add Item' located by 'By.xpath: //button[count(. | //*[contains(.,'Add Item')]) = count(//*[contains(.,'Add Item')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918504053.png]]
+
+2017-10-14 00:15:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:15:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:15:05 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Submit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_Submit' located by 'By.xpath: //button[count(. | //*[contains(.,'Submit')]) = count(//*[contains(.,'Submit')])][count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])]' not found)
+
+2017-10-14 00:15:20 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Submit' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_Submit' located by 'By.xpath: //button[count(. | //*[contains(.,'Submit')]) = count(//*[contains(.,'Submit')])][count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918520228.png]]
+
+2017-10-14 00:15:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:15:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:15:21 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Cancel' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_Cancel' located by 'By.xpath: //button[count(. | //*[contains(.,'Cancel')]) = count(//*[contains(.,'Cancel')])]' not found)
+
+2017-10-14 00:15:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Cancel' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_Cancel' located by 'By.xpath: //button[count(. | //*[contains(.,'Cancel')]) = count(//*[contains(.,'Cancel')])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918536395.png]]
+
+2017-10-14 00:15:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:15:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:15:37 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Submit (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_Submit (1)' located by 'By.xpath: //button[count(. | //*[contains(.,'Submit')]) = count(//*[contains(.,'Submit')])][count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])]' not found)
+
+2017-10-14 00:15:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Submit (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_Submit (1)' located by 'By.xpath: //button[count(. | //*[contains(.,'Submit')]) = count(//*[contains(.,'Submit')])][count(. | //*[@type = 'submit']) = count(//*[@type = 'submit'])]' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918552572.png]]
+
+2017-10-14 00:15:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-10-14 00:15:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-10-14 00:15:53 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Submit_popUp' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_Submit_popUp' located by 'By.xpath: //button[@class='confirm btn btn-lg btn-primary']' not found)
+
+2017-10-14 00:16:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Submit_popUp' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_Submit_popUp' located by 'By.xpath: //button[@class='confirm btn btn-lg btn-primary']' not found)
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918568749.png]]
+
+2017-10-14 00:16:08 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2017-10-14 00:16:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon_Project\\KatalonStudio-RequisitionTest-master\\Reports\\TestSuite-CreateMaterialRequisition\\20171014_000357\\1507918568897.png]]]]></system-out>
+         <system-err><![CDATA[2017-10-14 00:05:10 - [TEST_CASE][FAILED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to move mouse over object 'Object Repository/create material requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/create material requisition/span_Requisitions' located by 'By.xpath: //i[@class='icon-docs']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-14 00:03:59 - [TEST_SUITE][FAILED] - TestSuite-CreateMaterialRequisition: Test Cases/Login FAILED because (of) Unable to verify text 'Select A Role' is present  (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)]]></system-out>
+      <system-err><![CDATA[2017-10-14 00:03:59 - [TEST_SUITE][FAILED] - TestSuite-CreateMaterialRequisition: Test Cases/Login FAILED because (of) Unable to verify text 'Select A Role' is present  (Root cause: org.openqa.selenium.NoSuchElementException: Element not found or does not exist.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-SQEFDD7', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: driver.version: JBrowserDriver)]]></system-err>
+   </testsuite>
+</testsuites>

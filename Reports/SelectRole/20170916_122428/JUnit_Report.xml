@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SelectRole" time="95" tests="1" failures="1" errors="0">
+   <testsuite name="SelectRole" tests="1" failures="1" errors="0" time="95" timestamp="2017-09-16 12:24:29" hostname="mithu - DESKTOP-1QKO1SP" id="Test Suites/SelectRole">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170916_122428"/>
+         <property name="logFiles" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170916_122428\\execution0.log"/>
+         <property name="attachments" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170916_122428\\1505543164193.png"/>
+         <property name="hostName" value="mithu - DESKTOP-1QKO1SP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 53.0"/>
+         <property name="hostAddress" value="192.168.91.161"/>
+         <property name="sessionId" value="e5031a97-eb83-450a-8f53-6924cd7bec25"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2017-09-16 12:24:30 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-09-16 12:24:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-16 12:24:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-16 12:24:37 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-09-16 12:24:37 - [MESSAGE][PASSED] - Current window maximized
+
+2017-09-16 12:24:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-16 12:24:38 - [MESSAGE][PASSED] - Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-16 12:24:38 - [TEST_STEP][PASSED] - setText: Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-16 12:24:59 - [MESSAGE][PASSED] - Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-16 12:24:59 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-16 12:24:59 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-16 12:24:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on
+
+2017-09-16 12:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SelectRole" classname="Test Cases/SelectRole" status="FAILED">
+         <failure type="FAILED" message="Unable to select option by value '2_60_4' of object 'Object Repository/Page_Procurement Management  Role S/select_input'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //select[count(. | //*[@id = 'input']) = count(//*[@id = 'input'])]' not found)"/>
+         <system-out><![CDATA[2017-09-16 12:24:59 - [TEST_CASE][FAILED] - Test Cases/SelectRole: Test Cases/SelectRole FAILED because (of) Unable to select option by value '2_60_4' of object 'Object Repository/Page_Procurement Management  Role S/select_input'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //select[count(. | //*[@id = 'input']) = count(//*[@id = 'input'])]' not found)
+
+2017-09-16 12:24:59 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-09-16 12:25:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-09-16 12:25:00 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value '2_60_4' of object 'Object Repository/Page_Procurement Management  Role S/select_input'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //select[count(. | //*[@id = 'input']) = count(//*[@id = 'input'])]' not found)
+
+2017-09-16 12:26:04 - [MESSAGE][FAILED] - Unable to select option by value '2_60_4' of object 'Object Repository/Page_Procurement Management  Role S/select_input'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //select[count(. | //*[@id = 'input']) = count(//*[@id = 'input'])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170916_122428\\1505543164193.png]]]]></system-out>
+         <system-err><![CDATA[2017-09-16 12:24:59 - [TEST_CASE][FAILED] - Test Cases/SelectRole: Test Cases/SelectRole FAILED because (of) Unable to select option by value '2_60_4' of object 'Object Repository/Page_Procurement Management  Role S/select_input'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //select[count(. | //*[@id = 'input']) = count(//*[@id = 'input'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-16 12:24:29 - [TEST_SUITE][FAILED] - SelectRole: Test Cases/SelectRole FAILED because (of) Unable to select option by value '2_60_4' of object 'Object Repository/Page_Procurement Management  Role S/select_input'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //select[count(. | //*[@id = 'input']) = count(//*[@id = 'input'])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-09-16 12:24:29 - [TEST_SUITE][FAILED] - SelectRole: Test Cases/SelectRole FAILED because (of) Unable to select option by value '2_60_4' of object 'Object Repository/Page_Procurement Management  Role S/select_input'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //select[count(. | //*[@id = 'input']) = count(//*[@id = 'input'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

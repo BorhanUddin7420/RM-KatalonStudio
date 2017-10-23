@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Enter</name>
+   <tag></tag>
+   <elementGuidId>19304e61-7d1c-45d6-b31c-9b0ecfc94878</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;page-header-fixed page-sidebar-closed-hide-logo ng-scope page-content-white&quot;]/div[@class=&quot;page-container&quot;]/div[@class=&quot;page-content-wrapper&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;fade-in-up ng-scope&quot;]/div[@class=&quot;col-md-6 col-md-offset-3 ng-scope&quot;]/div[@class=&quot;panel&quot;]/div[@class=&quot;panel-body&quot;]/form[@class=&quot;ng-dirty ng-valid-parse ng-valid ng-valid-required&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;text-right&quot;]/button[@class=&quot;btn blue&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>setProjectRoleFromRole()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enter</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn blue</value>
+   </webElementProperties>
+</WebElementEntity>

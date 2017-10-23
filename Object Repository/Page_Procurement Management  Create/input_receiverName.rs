@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_receiverName</name>
+   <tag></tag>
+   <elementGuidId>ff2ab487-063c-4764-bb84-99f3a7a9dc24</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placehoder</name>
+      <type>Main</type>
+      <value>Receiver Name</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordiongroup-322-9898-panel&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;form-group ng-scope&quot;]/div[@class=&quot;col-md-6&quot;]/div[1]/input[@class=&quot;form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>materialRequisitionDetails.receiverName</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>getReceivers(materialRequisitionDetails.receiverName)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-keyup</name>
+      <type>Main</type>
+      <value>getReceivers(materialRequisitionDetails.receiverName)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>receiverName</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-readonly</name>
+      <type>Main</type>
+      <value>createMaterialRequisitionForm.receiverId.$modelValue != &quot;&quot; &amp;&amp; createMaterialRequisitionForm.receiverName.$touched</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required</value>
+   </webElementProperties>
+</WebElementEntity>

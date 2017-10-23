@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SelectRole" time="95" tests="1" failures="1" errors="0">
+   <testsuite name="SelectRole" tests="1" failures="1" errors="0" time="95" timestamp="2017-09-16 12:18:50" hostname="mithu - DESKTOP-1QKO1SP" id="Test Suites/SelectRole">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170916_121849"/>
+         <property name="logFiles" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170916_121849\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mithu - DESKTOP-1QKO1SP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 60.0.3112.113"/>
+         <property name="hostAddress" value="192.168.91.161"/>
+         <property name="sessionId" value="1220a618418627d652df2684b084f22f"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2017-09-16 12:18:51 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-09-16 12:18:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-16 12:18:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-16 12:18:54 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-09-16 12:18:55 - [MESSAGE][PASSED] - Current window maximized
+
+2017-09-16 12:18:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://beta-login.maxrailwaytrack.com/login/index/aHR0cDovL2JldGEtcmVxdWlzaXRpb24ubWF4cmFpbHdheXRyYWNrLmNvbS8%3D' successfully
+
+2017-09-16 12:19:03 - [MESSAGE][PASSED] - Navigate to 'http://beta-login.maxrailwaytrack.com/login/index/aHR0cDovL2JldGEtcmVxdWlzaXRpb24ubWF4cmFpbHdheXRyYWNrLmNvbS8%3D' successfully
+
+2017-09-16 12:19:03 - [TEST_STEP][PASSED] - setText: Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-16 12:19:03 - [MESSAGE][PASSED] - Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-16 12:19:03 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-16 12:19:03 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-16 12:19:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on
+
+2017-09-16 12:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SelectRole" classname="Test Cases/SelectRole" status="FAILED">
+         <failure type="FAILED" message="Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@1a2e2935
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir7144_4836}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1220a618418627d652df2684b084f22f)"/>
+         <system-out><![CDATA[2017-09-16 12:19:03 - [TEST_CASE][FAILED] - Test Cases/SelectRole: Test Cases/SelectRole FAILED because (of) Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@1a2e2935
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir7144_4836}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1220a618418627d652df2684b084f22f)
+
+2017-09-16 12:19:04 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@1a2e2935
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir7144_4836}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1220a618418627d652df2684b084f22f)
+
+2017-09-16 12:20:25 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-09-16 12:20:25 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@1a2e2935
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir7144_4836}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1220a618418627d652df2684b084f22f)]]></system-out>
+         <system-err><![CDATA[2017-09-16 12:19:03 - [TEST_CASE][FAILED] - Test Cases/SelectRole: Test Cases/SelectRole FAILED because (of) Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@1a2e2935
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir7144_4836}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1220a618418627d652df2684b084f22f)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-16 12:18:50 - [TEST_SUITE][FAILED] - SelectRole: Test Cases/SelectRole FAILED because (of) Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@1a2e2935
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir7144_4836}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1220a618418627d652df2684b084f22f)]]></system-out>
+      <system-err><![CDATA[2017-09-16 12:18:50 - [TEST_SUITE][FAILED] - SelectRole: Test Cases/SelectRole FAILED because (of) Unable to wait for page load (Root cause: org.openqa.selenium.TimeoutException: Timed out after 20 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForPageLoadKeyword$1@1a2e2935
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir7144_4836}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 1220a618418627d652df2684b084f22f)]]></system-err>
+   </testsuite>
+</testsuites>

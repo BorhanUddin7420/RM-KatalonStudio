@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SelectRole" time="86" tests="0" failures="3" errors="0">
+   <testsuite name="SelectRole" tests="0" failures="3" errors="0" time="86" timestamp="2017-09-17 11:06:09" hostname="mithu - DESKTOP-1QKO1SP" id="Test Suites/SelectRole">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_110607"/>
+         <property name="logFiles" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_110607\\execution0.log"/>
+         <property name="attachments" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_110607\\1505624806281.png, F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_110607\\1505624828004.png, F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_110607\\1505624854867.png"/>
+         <property name="hostName" value="mithu - DESKTOP-1QKO1SP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 53.0"/>
+         <property name="hostAddress" value="192.168.91.161"/>
+         <property name="sessionId" value="72462924-ed0b-44b0-accc-4d01f84bd8b8"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'fahadbillah@yahoo.com' of object 'Object Repository/Page_MaxGroup Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MaxGroup Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@id = 'Username']) = count(//*[@id = 'Username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)"/>
+         <system-out><![CDATA[2017-09-17 11:06:09 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Unable to set text 'fahadbillah@yahoo.com' of object 'Object Repository/Page_MaxGroup Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MaxGroup Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@id = 'Username']) = count(//*[@id = 'Username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)
+
+2017-09-17 11:06:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-17 11:06:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-17 11:06:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-09-17 11:06:17 - [MESSAGE][PASSED] - Current window maximized
+
+2017-09-17 11:06:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-17 11:06:29 - [MESSAGE][PASSED] - Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-17 11:06:29 - [TEST_STEP][FAILED] - setText: Unable to set text 'fahadbillah@yahoo.com' of object 'Object Repository/Page_MaxGroup Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MaxGroup Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@id = 'Username']) = count(//*[@id = 'Username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)
+
+2017-09-17 11:06:46 - [MESSAGE][FAILED] - Unable to set text 'fahadbillah@yahoo.com' of object 'Object Repository/Page_MaxGroup Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MaxGroup Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@id = 'Username']) = count(//*[@id = 'Username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_110607\\1505624806281.png]]]]></system-out>
+         <system-err><![CDATA[2017-09-17 11:06:09 - [TEST_CASE][FAILED] - Test Cases/Login: Test Cases/Login FAILED because (of) Unable to set text 'fahadbillah@yahoo.com' of object 'Object Repository/Page_MaxGroup Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MaxGroup Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@id = 'Username']) = count(//*[@id = 'Username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SelectRole" classname="Test Cases/SelectRole" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Procurement Management  Role S/select_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //*[@id=&quot;input&quot;]' not found)"/>
+         <system-out><![CDATA[2017-09-17 11:06:46 - [TEST_CASE][FAILED] - Test Cases/SelectRole: Test Cases/SelectRole FAILED because (of) Unable to click on object 'Object Repository/Page_Procurement Management  Role S/select_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //*[@id="input"]' not found)
+
+2017-09-17 11:06:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-09-17 11:06:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-09-17 11:06:51 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Role S/select_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //*[@id="input"]' not found)
+
+2017-09-17 11:07:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Role S/select_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //*[@id="input"]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_110607\\1505624828004.png]]]]></system-out>
+         <system-err><![CDATA[2017-09-17 11:06:46 - [TEST_CASE][FAILED] - Test Cases/SelectRole: Test Cases/SelectRole FAILED because (of) Unable to click on object 'Object Repository/Page_Procurement Management  Role S/select_input' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Role S/select_input' located by 'By.xpath: //*[@id="input"]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateMaterialRequisition" classname="Test Cases/CreateMaterialRequisition" status="FAILED">
+         <failure type="FAILED" message="Unable to move mouse over object 'Object Repository/Create Material Requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Material Requisition/span_Requisitions' located by 'By.xpath: //span[count(. | //*[contains(.,'Requisitions')]) = count(//*[contains(.,'Requisitions')])]' not found)"/>
+         <system-out><![CDATA[2017-09-17 11:07:08 - [TEST_CASE][FAILED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to move mouse over object 'Object Repository/Create Material Requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Material Requisition/span_Requisitions' located by 'By.xpath: //span[count(. | //*[contains(.,'Requisitions')]) = count(//*[contains(.,'Requisitions')])]' not found)
+
+2017-09-17 11:07:08 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-17 11:07:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-17 11:07:18 - [TEST_STEP][FAILED] - mouseOver: Unable to move mouse over object 'Object Repository/Create Material Requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Material Requisition/span_Requisitions' located by 'By.xpath: //span[count(. | //*[contains(.,'Requisitions')]) = count(//*[contains(.,'Requisitions')])]' not found)
+
+2017-09-17 11:07:35 - [MESSAGE][FAILED] - Unable to move mouse over object 'Object Repository/Create Material Requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Material Requisition/span_Requisitions' located by 'By.xpath: //span[count(. | //*[contains(.,'Requisitions')]) = count(//*[contains(.,'Requisitions')])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_110607\\1505624854867.png]]]]></system-out>
+         <system-err><![CDATA[2017-09-17 11:07:08 - [TEST_CASE][FAILED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to move mouse over object 'Object Repository/Create Material Requisition/span_Requisitions' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Create Material Requisition/span_Requisitions' located by 'By.xpath: //span[count(. | //*[contains(.,'Requisitions')]) = count(//*[contains(.,'Requisitions')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-17 11:06:09 - [TEST_SUITE][FAILED] - SelectRole: Test Cases/Login FAILED because (of) Unable to set text 'fahadbillah@yahoo.com' of object 'Object Repository/Page_MaxGroup Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MaxGroup Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@id = 'Username']) = count(//*[@id = 'Username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-09-17 11:06:09 - [TEST_SUITE][FAILED] - SelectRole: Test Cases/Login FAILED because (of) Unable to set text 'fahadbillah@yahoo.com' of object 'Object Repository/Page_MaxGroup Login/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_MaxGroup Login/input_username' located by 'By.xpath: //input[count(. | //*[@name = 'username']) = count(//*[@name = 'username'])][count(. | //*[@id = 'Username']) = count(//*[@id = 'Username'])][count(. | //*[@placeholder = 'Username']) = count(//*[@placeholder = 'Username'])][count(. | //*[@type = 'email']) = count(//*[@type = 'email'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
