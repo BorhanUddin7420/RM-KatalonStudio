@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SelectRole" time="35" tests="3" failures="0" errors="0">
+   <testsuite name="SelectRole" tests="3" failures="0" errors="0" time="35" timestamp="2017-09-17 12:51:47" hostname="mithu - DESKTOP-1QKO1SP" id="Test Suites/SelectRole">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_125146"/>
+         <property name="logFiles" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170917_125146\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mithu - DESKTOP-1QKO1SP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 60.0.3112.113"/>
+         <property name="hostAddress" value="192.168.91.161"/>
+         <property name="sessionId" value="b3cbc303be5f58f2df63e5536b13e5a2"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2017-09-17 12:51:48 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-09-17 12:51:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-17 12:51:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-17 12:51:51 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-09-17 12:51:52 - [MESSAGE][PASSED] - Current window maximized
+
+2017-09-17 12:51:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-17 12:51:55 - [MESSAGE][PASSED] - Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-17 12:51:55 - [TEST_STEP][PASSED] - setText: Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-17 12:51:55 - [MESSAGE][PASSED] - Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-17 12:51:55 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-17 12:51:55 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-17 12:51:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on
+
+2017-09-17 12:51:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SelectRole" classname="Test Cases/SelectRole" status="PASSED">
+         <system-out><![CDATA[2017-09-17 12:51:56 - [TEST_CASE][PASSED] - Test Cases/SelectRole: Test Cases/SelectRole
+
+2017-09-17 12:51:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-09-17 12:52:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-09-17 12:52:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/select_input' is clicked on
+
+2017-09-17 12:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/select_input' is clicked on
+
+2017-09-17 12:52:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' is clicked on
+
+2017-09-17 12:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' is clicked on
+
+2017-09-17 12:52:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/button_Enter' is clicked on
+
+2017-09-17 12:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/button_Enter' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateMaterialRequisition" classname="Test Cases/CreateMaterialRequisition" status="PASSED">
+         <system-out><![CDATA[2017-09-17 12:52:01 - [TEST_CASE][PASSED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition
+
+2017-09-17 12:52:01 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-17 12:52:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-17 12:52:11 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/create material requisition/span_Requisitions' is hovered
+
+2017-09-17 12:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/span_Requisitions' is hovered
+
+2017-09-17 12:52:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 12:52:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 12:52:13 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/create material requisition/a_Create Requisition' is hovered
+
+2017-09-17 12:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/a_Create Requisition' is hovered
+
+2017-09-17 12:52:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 12:52:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 12:52:16 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/create material requisition/a_Material Requisition' is hovered
+
+2017-09-17 12:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/a_Material Requisition' is hovered
+
+2017-09-17 12:52:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 12:52:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 12:52:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create material requisition/a_Material Requisition' is clicked on
+
+2017-09-17 12:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/a_Material Requisition' is clicked on
+
+2017-09-17 12:52:18 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-09-17 12:52:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-09-17 12:52:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' is clicked on
+
+2017-09-17 12:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' is clicked on
+
+2017-09-17 12:52:20 - [TEST_STEP][PASSED] - setText: Text 'Material Requisition 1A' is set on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle'
+
+2017-09-17 12:52:20 - [MESSAGE][PASSED] - Text 'Material Requisition 1A' is set on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle'
+
+2017-09-17 12:52:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/requestTo' is clicked on
+
+2017-09-17 12:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/requestTo' is clicked on
+
+2017-09-17 12:52:20 - [TEST_STEP][PASSED] - setText: Text 'Fahad Billah' is set on object 'Object Repository/Page_Procurement Management  Create/requestTo'
+
+2017-09-17 12:52:20 - [MESSAGE][PASSED] - Text 'Fahad Billah' is set on object 'Object Repository/Page_Procurement Management  Create/requestTo'
+
+2017-09-17 12:52:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' is clicked on
+
+2017-09-17 12:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-17 12:51:47 - [TEST_SUITE][PASSED] - SelectRole: Test Cases/CreateMaterialRequisition]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

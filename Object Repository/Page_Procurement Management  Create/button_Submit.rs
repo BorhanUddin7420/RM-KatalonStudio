@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Submit</name>
+   <tag></tag>
+   <elementGuidId>205f03db-0a91-4124-94ef-76131372a287</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ng-scope&quot;]/body[@class=&quot;page-header-fixed page-sidebar-closed-hide-logo ng-scope page-content-white&quot;]/div[@class=&quot;page-container&quot;]/div[@class=&quot;page-content-wrapper&quot;]/div[@class=&quot;page-content&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;fade-in-up ng-scope&quot;]/div[@class=&quot;portlet light bordered ng-scope&quot;]/div[@class=&quot;portlet-body form&quot;]/div[1]/form[@class=&quot;form-horizontal ng-invalid-required ng-valid-date ng-valid-min ng-valid-max ng-dirty ng-valid-parse ng-invalid ng-valid-date-disabled&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-offset-2 col-md-4&quot;]/button[@class=&quot;btn btn-lg  btn-outline green-haze&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formnovalidate</name>
+      <type>Main</type>
+      <value>formnovalidate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>createMaterialRequisition()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-lg  btn-outline green-haze</value>
+   </webElementProperties>
+</WebElementEntity>

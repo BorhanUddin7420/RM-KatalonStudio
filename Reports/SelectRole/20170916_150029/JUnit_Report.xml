@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SelectRole" time="43" tests="2" failures="1" errors="0">
+   <testsuite name="SelectRole" tests="2" failures="1" errors="0" time="43" timestamp="2017-09-16 15:00:30" hostname="mithu - DESKTOP-1QKO1SP" id="Test Suites/SelectRole">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170916_150029"/>
+         <property name="logFiles" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170916_150029\\execution0.log"/>
+         <property name="attachments" value="F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170916_150029\\1505552472426.png"/>
+         <property name="hostName" value="mithu - DESKTOP-1QKO1SP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 60.0.3112.113"/>
+         <property name="hostAddress" value="192.168.91.161"/>
+         <property name="sessionId" value="52c4fd653ee764c580c573a135a09095"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2017-09-16 15:00:30 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-09-16 15:00:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-16 15:00:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-16 15:00:34 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-09-16 15:00:35 - [MESSAGE][PASSED] - Current window maximized
+
+2017-09-16 15:00:35 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-16 15:00:38 - [MESSAGE][PASSED] - Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-16 15:00:38 - [TEST_STEP][PASSED] - setText: Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-16 15:00:39 - [MESSAGE][PASSED] - Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-16 15:00:39 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-16 15:00:39 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-16 15:00:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on
+
+2017-09-16 15:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SelectRole" classname="Test Cases/SelectRole" status="PASSED">
+         <system-out><![CDATA[2017-09-16 15:00:39 - [TEST_CASE][PASSED] - Test Cases/SelectRole: Test Cases/SelectRole
+
+2017-09-16 15:00:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-09-16 15:00:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-09-16 15:00:45 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '2_60_4' are selected in object 'Object Repository/Page_Procurement Management  Role S/select_input'  using regular expression
+
+2017-09-16 15:00:45 - [MESSAGE][PASSED] - All options with value '2_60_4' are selected in object 'Object Repository/Page_Procurement Management  Role S/select_input'  using regular expression
+
+2017-09-16 15:00:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/button_Enter' is clicked on
+
+2017-09-16 15:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/button_Enter' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateMaterialRequisition" classname="Test Cases/CreateMaterialRequisition" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)"/>
+         <system-out><![CDATA[2017-09-16 15:00:45 - [TEST_CASE][FAILED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-09-16 15:00:46 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-16 15:00:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-16 15:00:56 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Create Material Requisition/span_Requisitions' is hovered
+
+2017-09-16 15:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Material Requisition/span_Requisitions' is hovered
+
+2017-09-16 15:00:56 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Create Material Requisition/a_Create Requisition' is hovered
+
+2017-09-16 15:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Material Requisition/a_Create Requisition' is hovered
+
+2017-09-16 15:00:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Create Material Requisition/a_Create Requisition' is clicked on
+
+2017-09-16 15:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create Material Requisition/a_Create Requisition' is clicked on
+
+2017-09-16 15:00:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-09-16 15:00:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-09-16 15:00:56 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+
+2017-09-16 15:01:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\SelectRole\\20170916_150029\\1505552472426.png]]]]></system-out>
+         <system-err><![CDATA[2017-09-16 15:00:45 - [TEST_CASE][FAILED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-16 15:00:30 - [TEST_SUITE][FAILED] - SelectRole: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)]]></system-out>
+      <system-err><![CDATA[2017-09-16 15:00:30 - [TEST_SUITE][FAILED] - SelectRole: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to click on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' located by 'By.xpath: //input[count(. | //*[@name = 'requisitionTitle']) = count(//*[@name = 'requisitionTitle'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

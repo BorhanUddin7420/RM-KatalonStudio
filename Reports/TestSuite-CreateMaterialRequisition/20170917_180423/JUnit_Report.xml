@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite-CreateMaterialRequisition" time="326" tests="2" failures="1" errors="0">
+   <testsuite name="TestSuite-CreateMaterialRequisition" tests="2" failures="1" errors="0" time="326" timestamp="2017-09-17 18:04:24" hostname="mithu - DESKTOP-1QKO1SP" id="Test Suites/TestSuite-CreateMaterialRequisition">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423"/>
+         <property name="logFiles" value="F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\execution0.log"/>
+         <property name="attachments" value="F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505649953635.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505649971216.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505649972677.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650027043.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650044959.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650063009.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650082039.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650097733.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650114669.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650131680.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650148508.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650165372.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650182230.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650184772.png, F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650186214.png"/>
+         <property name="hostName" value="mithu - DESKTOP-1QKO1SP"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Chrome 60.0.3112.113"/>
+         <property name="hostAddress" value="192.168.91.161"/>
+         <property name="sessionId" value="9b79cd9fdf9859209f442b91b98724b8"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2017-09-17 18:04:25 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2017-09-17 18:04:25 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2017-09-17 18:04:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2017-09-17 18:04:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-09-17 18:04:29 - [MESSAGE][PASSED] - Current window maximized
+
+2017-09-17 18:04:29 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-17 18:04:40 - [MESSAGE][PASSED] - Navigate to 'http://beta-requisition.maxrailwaytrack.com/' successfully
+
+2017-09-17 18:04:40 - [TEST_STEP][PASSED] - setText: Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-17 18:04:41 - [MESSAGE][PASSED] - Text 'fahadbillah@yahoo.com' is set on object 'Object Repository/Page_MaxGroup Login/input_username'
+
+2017-09-17 18:04:41 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-17 18:04:41 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_MaxGroup Login/input_password'
+
+2017-09-17 18:04:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on
+
+2017-09-17 18:04:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_MaxGroup Login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SelectRole" classname="Test Cases/SelectRole" status="PASSED">
+         <system-out><![CDATA[2017-09-17 18:04:41 - [TEST_CASE][PASSED] - Test Cases/SelectRole: Test Cases/SelectRole
+
+2017-09-17 18:04:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-09-17 18:04:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-09-17 18:04:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/select_input' is clicked on
+
+2017-09-17 18:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/select_input' is clicked on
+
+2017-09-17 18:04:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' is clicked on
+
+2017-09-17 18:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/option_Requester at CDA' is clicked on
+
+2017-09-17 18:04:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Role S/button_Enter' is clicked on
+
+2017-09-17 18:04:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Role S/button_Enter' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateMaterialRequisition" classname="Test Cases/CreateMaterialRequisition" status="FAILED">
+         <failure type="FAILED" message="Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@475b7792
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)"/>
+         <system-out><![CDATA[2017-09-17 18:04:52 - [TEST_CASE][FAILED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@475b7792
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)
+
+2017-09-17 18:04:52 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-17 18:05:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-17 18:05:02 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/create material requisition/span_Requisitions' is hovered
+
+2017-09-17 18:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/span_Requisitions' is hovered
+
+2017-09-17 18:05:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:05:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:05:04 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/create material requisition/a_Create Requisition' is hovered
+
+2017-09-17 18:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/a_Create Requisition' is hovered
+
+2017-09-17 18:05:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:05:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:05:07 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/create material requisition/a_Material Requisition' is hovered
+
+2017-09-17 18:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/a_Material Requisition' is hovered
+
+2017-09-17 18:05:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:05:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:05:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/create material requisition/a_Material Requisition' is clicked on
+
+2017-09-17 18:05:09 - [MESSAGE][PASSED] - Object: 'Object Repository/create material requisition/a_Material Requisition' is clicked on
+
+2017-09-17 18:05:09 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-09-17 18:05:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-09-17 18:05:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' is clicked on
+
+2017-09-17 18:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle' is clicked on
+
+2017-09-17 18:05:15 - [TEST_STEP][PASSED] - setText: Text 'Material Requisition 1A' is set on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle'
+
+2017-09-17 18:05:15 - [MESSAGE][PASSED] - Text 'Material Requisition 1A' is set on object 'Object Repository/Page_Procurement Management  Create/input_requisitionTitle'
+
+2017-09-17 18:05:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/requestTo' is clicked on
+
+2017-09-17 18:05:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/requestTo' is clicked on
+
+2017-09-17 18:05:15 - [TEST_STEP][PASSED] - setText: Text 'Fahad Billah' is set on object 'Object Repository/Page_Procurement Management  Create/requestTo'
+
+2017-09-17 18:05:15 - [MESSAGE][PASSED] - Text 'Fahad Billah' is set on object 'Object Repository/Page_Procurement Management  Create/requestTo'
+
+2017-09-17 18:05:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' is clicked on
+
+2017-09-17 18:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah (Local Boss)' is clicked on
+
+2017-09-17 18:05:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/input_receiverName' is clicked on
+
+2017-09-17 18:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/input_receiverName' is clicked on
+
+2017-09-17 18:05:17 - [TEST_STEP][PASSED] - setText: Text 'Fahad Billah' is set on object 'Object Repository/Page_Procurement Management  Create/input_receiverName'
+
+2017-09-17 18:05:17 - [MESSAGE][PASSED] - Text 'Fahad Billah' is set on object 'Object Repository/Page_Procurement Management  Create/input_receiverName'
+
+2017-09-17 18:05:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah' is clicked on
+
+2017-09-17 18:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/li_Fahad Billah' is clicked on
+
+2017-09-17 18:05:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:05:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:05:20 - [TEST_STEP][PASSED] - setText: Text 'Mirhu khan' is set on object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterName (2)'
+
+2017-09-17 18:05:20 - [MESSAGE][PASSED] - Text 'Mirhu khan' is set on object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterName (2)'
+
+2017-09-17 18:05:20 - [TEST_STEP][PASSED] - setText: Text '01745677420' is set on object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterPhone (1)'
+
+2017-09-17 18:05:20 - [MESSAGE][PASSED] - Text '01745677420' is set on object 'Object Repository/Page_Procurement Management  Create/input_originalRequesterPhone (1)'
+
+2017-09-17 18:05:20 - [TEST_STEP][PASSED] - setText: Text 'Test Team Qa-katalon' is set on object 'Object Repository/Page_Procurement Management  Create/textarea_remarks'
+
+2017-09-17 18:05:20 - [MESSAGE][PASSED] - Text 'Test Team Qa-katalon' is set on object 'Object Repository/Page_Procurement Management  Create/textarea_remarks'
+
+2017-09-17 18:05:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:05:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:05:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/span_Item Details' is clicked on
+
+2017-09-17 18:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/span_Item Details' is clicked on
+
+2017-09-17 18:05:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:05:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:05:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/CostCenterName' is clicked on
+
+2017-09-17 18:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/CostCenterName' is clicked on
+
+2017-09-17 18:05:23 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@475b7792
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)
+
+2017-09-17 18:05:54 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@475b7792
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505649953635.png]]
+
+2017-09-17 18:05:54 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/a_10100.12 Engineers  Employer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/a_10100.12 Engineers  Employer' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[@id = '176_anchor']) = count(//*[@id = '176_anchor'])][count(. | //*[contains(.,'10100.12 Engineers & Employers Office')]) = count(//*[contains(.,'10100.12 Engineers & Employers Office')])]' not found)
+
+2017-09-17 18:06:11 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/a_10100.12 Engineers  Employer' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/a_10100.12 Engineers  Employer' located by 'By.xpath: //a[count(. | //*[@href = '#']) = count(//*[@href = '#'])][count(. | //*[@id = '176_anchor']) = count(//*[@id = '176_anchor'])][count(. | //*[contains(.,'10100.12 Engineers & Employers Office')]) = count(//*[contains(.,'10100.12 Engineers & Employers Office')])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505649971216.png]]
+
+2017-09-17 18:06:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:06:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:06:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_OK' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary" ng-disabled="ccId == null" type="button" ng-click="ok()" disabled="disabled">...</button> is not clickable at point (1284, 760). Other element would receive the click: <div class="custom-loader" ng-show="loader.cc" style="position: absolute;height: 100%;width: 100%;z-index: 100;background-color: rgba(0,0,0,0.20);margin: -15px -15px;">...</div>
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)
+
+2017-09-17 18:06:13 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_OK' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary" ng-disabled="ccId == null" type="button" ng-click="ok()" disabled="disabled">...</button> is not clickable at point (1284, 760). Other element would receive the click: <div class="custom-loader" ng-show="loader.cc" style="position: absolute;height: 100%;width: 100%;z-index: 100;background-color: rgba(0,0,0,0.20);margin: -15px -15px;">...</div>
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 47 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505649972677.png]]
+
+2017-09-17 18:06:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:06:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:06:15 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_btn pull-right btn-defa' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_btn pull-right btn-defa' located by 'By.xpath: //input[@name='itemName']' not found)
+
+2017-09-17 18:07:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_btn pull-right btn-defa' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_btn pull-right btn-defa' located by 'By.xpath: //input[@name='itemName']' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650027043.png]]
+
+2017-09-17 18:07:07 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2017-09-17 18:07:09 - [MESSAGE][PASSED] - Angular is ready.
+
+2017-09-17 18:07:09 - [TEST_STEP][FAILED] - setText: Unable to set text 'acv' of object 'Object Repository/Page_Procurement Management  Create/input_form-control ng-untouche' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_form-control ng-untouche' located by 'By.xpath: //input[@ng-keyup='treeSearch()']' not found)
+
+2017-09-17 18:07:25 - [MESSAGE][FAILED] - Unable to set text 'acv' of object 'Object Repository/Page_Procurement Management  Create/input_form-control ng-untouche' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/input_form-control ng-untouche' located by 'By.xpath: //input[@ng-keyup='treeSearch()']' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650044959.png]]
+
+2017-09-17 18:07:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:07:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:07:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/a_ACV Measuring Mould' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/a_ACV Measuring Mould' located by 'By.xpath: //a[@id='2670_anchor']' not found)
+
+2017-09-17 18:07:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/a_ACV Measuring Mould' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/a_ACV Measuring Mould' located by 'By.xpath: //a[@id='2670_anchor']' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650063009.png]]
+
+2017-09-17 18:07:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-09-17 18:07:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-09-17 18:07:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_OK' located by 'By.xpath: //button[count(. | //*[contains(.,'OK')]) = count(//*[contains(.,'OK')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+
+2017-09-17 18:08:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_OK' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/button_OK' located by 'By.xpath: //button[count(. | //*[contains(.,'OK')]) = count(//*[contains(.,'OK')])][count(. | //*[@type = 'button']) = count(//*[@type = 'button'])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650082039.png]]
+
+2017-09-17 18:08:02 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2017-09-17 18:08:02 - [MESSAGE][PASSED] - Angular is ready.
+
+2017-09-17 18:08:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/Click specification ID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/Click specification ID' located by 'By.xpath: //select[@name='specificationId']' not found)
+
+2017-09-17 18:08:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/Click specification ID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/Click specification ID' located by 'By.xpath: //select[@name='specificationId']' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650097733.png]]
+
+2017-09-17 18:08:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:08:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:08:19 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value '{"idSpecifications":"4201","specificationName":"Spec 2"}' of object 'Object Repository/Page_Procurement Management  Create/select_specificationId'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/select_specificationId' located by 'By.xpath: //select[count(. | //select[@name='specificationId']) = count(//select[@name='specificationId'])][count(. | //*[@name = 'specificationId']) = count(//*[@name = 'specificationId'])]' not found)
+
+2017-09-17 18:08:35 - [MESSAGE][FAILED] - Unable to select option by value '{"idSpecifications":"4201","specificationName":"Spec 2"}' of object 'Object Repository/Page_Procurement Management  Create/select_specificationId'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/select_specificationId' located by 'By.xpath: //select[count(. | //select[@name='specificationId']) = count(//select[@name='specificationId'])][count(. | //*[@name = 'specificationId']) = count(//*[@name = 'specificationId'])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650114669.png]]
+
+2017-09-17 18:08:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:08:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:08:36 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/Click Size ID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/Click Size ID' located by 'By.xpath: //select[@name='sizeId']' not found)
+
+2017-09-17 18:08:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/Click Size ID' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/Click Size ID' located by 'By.xpath: //select[@name='sizeId']' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650131680.png]]
+
+2017-09-17 18:08:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:08:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:08:53 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value '{"idSize":"5849","sizeValue":"Size 2"}' of object 'Object Repository/Page_Procurement Management  Create/select_sizeId'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/select_sizeId' located by 'By.xpath: //select[count(. | //*[@name = 'sizeId']) = count(//*[@name = 'sizeId'])]' not found)
+
+2017-09-17 18:09:08 - [MESSAGE][FAILED] - Unable to select option by value '{"idSize":"5849","sizeValue":"Size 2"}' of object 'Object Repository/Page_Procurement Management  Create/select_sizeId'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/select_sizeId' located by 'By.xpath: //select[count(. | //*[@name = 'sizeId']) = count(//*[@name = 'sizeId'])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650148508.png]]
+
+2017-09-17 18:09:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:09:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:09:09 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/click color Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/click color Id' located by 'By.xpath: //select[@name='colorId']' not found)
+
+2017-09-17 18:09:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/click color Id' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/click color Id' located by 'By.xpath: //select[@name='colorId']' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650165372.png]]
+
+2017-09-17 18:09:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:09:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:09:26 - [TEST_STEP][FAILED] - selectOptionByValue: Unable to select option by value '{"idColor":"219","colorName":"Color 2"}' of object 'Object Repository/Page_Procurement Management  Create/select_colorId'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/select_colorId' located by 'By.xpath: //select[count(. | //*[@name = 'colorId']) = count(//*[@name = 'colorId'])]' not found)
+
+2017-09-17 18:09:42 - [MESSAGE][FAILED] - Unable to select option by value '{"idColor":"219","colorName":"Color 2"}' of object 'Object Repository/Page_Procurement Management  Create/select_colorId'  using regular expression (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Procurement Management  Create/select_colorId' located by 'By.xpath: //select[count(. | //*[@name = 'colorId']) = count(//*[@name = 'colorId'])]' not found)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650182230.png]]
+
+2017-09-17 18:09:42 - [TEST_STEP][PASSED] - setText: Text 'mkGhost' is set on object 'Object Repository/Page_Procurement Management  Create/input_receiverNameTemp'
+
+2017-09-17 18:09:42 - [MESSAGE][PASSED] - Text 'mkGhost' is set on object 'Object Repository/Page_Procurement Management  Create/input_receiverNameTemp'
+
+2017-09-17 18:09:42 - [TEST_STEP][PASSED] - setText: Text '20no road mohakhali DOHS' is set on object 'Object Repository/Page_Procurement Management  Create/input_receivingAddress'
+
+2017-09-17 18:09:43 - [MESSAGE][PASSED] - Text '20no road mohakhali DOHS' is set on object 'Object Repository/Page_Procurement Management  Create/input_receivingAddress'
+
+2017-09-17 18:09:43 - [TEST_STEP][PASSED] - setText: Text '250' is set on object 'Object Repository/Page_Procurement Management  Create/input_quantity'
+
+2017-09-17 18:09:43 - [MESSAGE][PASSED] - Text '250' is set on object 'Object Repository/Page_Procurement Management  Create/input_quantity'
+
+2017-09-17 18:09:43 - [TEST_STEP][PASSED] - setText: Text 'Test Item' is set on object 'Object Repository/Page_Procurement Management  Create/input_itemDesc'
+
+2017-09-17 18:09:43 - [MESSAGE][PASSED] - Text 'Test Item' is set on object 'Object Repository/Page_Procurement Management  Create/input_itemDesc'
+
+2017-09-17 18:09:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:09:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:09:44 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Add Item' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="button" ng-click="addMaterialRequisitionDetails()" ng-disabled="specSizeColorLoader" class="btn btn-outline pull-right btn-sm blue-ebonyclay">...</button> is not clickable at point (1415, 711). Other element would receive the click: <div modal-render="true" tabindex="-1" role="dialog" class="modal fade ng-isolate-scope in" uib-modal-animation-class="fade" modal-in-class="in" ng-style="{'z-index': 1050 + index*10, display: 'block'}" uib-modal-window="modal-window" size="lg" index="0" animate="animate" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 45 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)
+
+2017-09-17 18:09:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Add Item' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="button" ng-click="addMaterialRequisitionDetails()" ng-disabled="specSizeColorLoader" class="btn btn-outline pull-right btn-sm blue-ebonyclay">...</button> is not clickable at point (1415, 711). Other element would receive the click: <div modal-render="true" tabindex="-1" role="dialog" class="modal fade ng-isolate-scope in" uib-modal-animation-class="fade" modal-in-class="in" ng-style="{'z-index': 1050 + index*10, display: 'block'}" uib-modal-window="modal-window" size="lg" index="0" animate="animate" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 45 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650184772.png]]
+
+2017-09-17 18:09:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:09:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:09:46 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Submit' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" formnovalidate="formnovalidate" style="width:100%" class="btn btn-lg  btn-outline green-haze" ng-click="createMaterialRequisition()">...</button> is not clickable at point (797, 900). Other element would receive the click: <div modal-render="true" tabindex="-1" role="dialog" class="modal fade ng-isolate-scope in" uib-modal-animation-class="fade" modal-in-class="in" ng-style="{'z-index': 1050 + index*10, display: 'block'}" uib-modal-window="modal-window" size="lg" index="0" animate="animate" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 45 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)
+
+2017-09-17 18:09:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Procurement Management  Create/button_Submit' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" formnovalidate="formnovalidate" style="width:100%" class="btn btn-lg  btn-outline green-haze" ng-click="createMaterialRequisition()">...</button> is not clickable at point (797, 900). Other element would receive the click: <div modal-render="true" tabindex="-1" role="dialog" class="modal fade ng-isolate-scope in" uib-modal-animation-class="fade" modal-in-class="in" ng-style="{'z-index': 1050 + index*10, display: 'block'}" uib-modal-window="modal-window" size="lg" index="0" animate="animate" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=60.0.3112.113)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 45 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)
+[[ATTACHMENT|F:\\Katalon_project\\MaxReqMan\\Reports\\TestSuite-CreateMaterialRequisition\\20170917_180423\\1505650186214.png]]
+
+2017-09-17 18:09:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:09:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:09:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_Cancel' is clicked on
+
+2017-09-17 18:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_Cancel' is clicked on
+
+2017-09-17 18:09:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:09:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:09:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_Submit (1)' is clicked on
+
+2017-09-17 18:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_Submit (1)' is clicked on
+
+2017-09-17 18:09:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2017-09-17 18:09:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2017-09-17 18:09:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Procurement Management  Create/button_Submit (2)' is clicked on
+
+2017-09-17 18:09:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Procurement Management  Create/button_Submit (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[2017-09-17 18:04:52 - [TEST_CASE][FAILED] - Test Cases/CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@475b7792
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-17 18:04:24 - [TEST_SUITE][FAILED] - TestSuite-CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@475b7792
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)]]></system-out>
+      <system-err><![CDATA[2017-09-17 18:04:24 - [TEST_SUITE][FAILED] - TestSuite-CreateMaterialRequisition: Test Cases/CreateMaterialRequisition FAILED because (of) Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@475b7792
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'DESKTOP-1QKO1SP', ip: '192.168.91.161', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\mithu\AppData\Local\Temp\scoped_dir1468_30758}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.113, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 9b79cd9fdf9859209f442b91b98724b8)]]></system-err>
+   </testsuite>
+</testsuites>

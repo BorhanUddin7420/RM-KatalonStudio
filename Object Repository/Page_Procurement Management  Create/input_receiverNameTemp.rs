@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_receiverNameTemp</name>
+   <tag></tag>
+   <elementGuidId>51e23526-6bd3-403b-abf0-4596c31c0fd5</elementGuidId>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;accordiongroup-333-7232-panel&quot;)/div[@class=&quot;panel-body&quot;]/div[@class=&quot;form-group ng-scope&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;input-group&quot;]/input[@class=&quot;form-control ng-untouched ng-not-empty ng-dirty ng-valid-parse ng-valid ng-valid-required&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>itemTempDetails.receiverName</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>receiverNameTemp</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-untouched ng-not-empty ng-dirty ng-valid-parse ng-valid ng-valid-required</value>
+   </webElementProperties>
+</WebElementEntity>

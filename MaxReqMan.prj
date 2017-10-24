@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>MaxReqMan</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <type>PROJECT</type>
+   </integratedEntity>
+   <UUID>88bfa8b2-be51-40eb-b468-847341149e55</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
