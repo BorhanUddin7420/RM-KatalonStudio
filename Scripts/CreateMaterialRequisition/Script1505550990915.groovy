@@ -189,9 +189,13 @@ for (def row = 1; row <= findTestData('createMaterialRequisitionData/createMrInf
     'Click Ok Button PopUp'
     WebUI.click(findTestObject('Page_Procurement Management  Create/button_Submit_popUp'))
 
+    WebUI.delay(5)
+
     WebUI.verifyTextPresent('Requisition Created Successfully', false)
 
     'Click Ok Button'
-    WebUI.click(findTestObject('Page_Procurement Management  Create (1)/ok_btn'))
+    WebUI.click(findTestObject('Page_Procurement Management  Create (1)/button_OK'))
+
+    WebUI.delay(5)
 }
 
